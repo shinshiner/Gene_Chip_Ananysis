@@ -1,0 +1,4028 @@
+label 1	primary hyperparathyroidism
+label 2	normal
+label 3	primary hyperparathyroidism
+label 4	normal
+label 5	primary hyperparathyroidism
+label 6	normal
+label 7	primary hyperparathyroidism
+label 8	normal
+label 9	primary hyperparathyroidism
+label 10	normal
+label 11	primary hyperparathyroidism
+label 12	normal
+label 13	normal
+label 14	primary hyperparathyroidism
+label 15	"Down syndrome, transient myleoproliferative disorder"
+label 16	"Down syndrome, transient myleoproliferative disorder"
+label 17	"Down syndrome, transient myleoproliferative disorder"
+label 18	"Down syndrome, transient myleoproliferative disorder"
+label 19	"Down syndrome, transient myleoproliferative disorder"
+label 20	"Down syndrome, transient myleoproliferative disorder"
+label 21	"Down syndrome, transient myleoproliferative disorder"
+label 22	"Down syndrome, transient myleoproliferative disorder"
+label 23	"Down syndrome, transient myleoproliferative disorder"
+label 24	"Down syndrome, acute megakaryoblastic leukaemia"
+label 25	"Down syndrome, acute megakaryoblastic leukaemia"
+label 26	"Down syndrome, acute megakaryoblastic leukaemia"
+label 27	"Down syndrome, acute megakaryoblastic leukaemia"
+label 28	"Down syndrome, acute megakaryoblastic leukaemia"
+label 29	"Down syndrome, acute megakaryoblastic leukaemia"
+label 30	"Down syndrome, acute megakaryoblastic leukaemia"
+label 31	"Down syndrome, acute megakaryoblastic leukaemia"
+label 32	normal
+label 33	normal
+label 34	"Down syndrome, non-leukaemic"
+label 35	ganglioneuroma
+label 36	neuroblastoma-poorly differentiated
+label 37	neuroblastoma-poorly differentiated
+label 38	neuroblastoma-poorly differentiated
+label 39	neuroblastoma-poorly differentiated
+label 40	neuroblastoma-poorly differentiated
+label 41	ganglioneuroblastoma
+label 42	neuroblastoma-poorly differentiated
+label 43	neuroblastoma-poorly differentiated
+label 44	neuroblastoma-poorly differentiated
+label 45	neuroblastoma-poorly differentiated
+label 46	neuroblastoma-poorly differentiated
+label 47	neuroblastoma-differentiating
+label 48	neuroblastoma-poorly differentiated
+label 49	neuroblastoma-undifferentiated
+label 50	neuroblastoma-poorly differentiated
+label 51	ganglioneuroblastoma
+label 52	neuroblastoma-poorly differentiated
+label 53	neuroblastoma-poorly differentiated
+label 54	ganglioneuroblastoma intermixed
+label 55	ganglioneuroblastoma
+label 56	neuroblastoma-differentiating
+label 57	CVID
+label 58	CVID
+label 59	CVID
+label 60	CVID
+label 61	CVID
+label 62	XLA
+label 63	XLA
+label 64	XLA
+label 65	XLA
+label 66	XLA
+label 67	normal
+label 68	normal
+label 69	normal
+label 70	normal
+label 71	normal
+label 72	normal
+label 73	CVID
+label 74	follicular thyroid adenoma
+label 75	follicular thyroid carcinoma
+label 76	follicular thyroid carcinoma
+label 77	follicular thyroid carcinoma
+label 78	follicular thyroid carcinoma
+label 79	follicular thyroid carcinoma
+label 80	follicular thyroid carcinoma
+label 81	follicular thyroid carcinoma
+label 82	follicular thyroid carcinoma
+label 83	follicular thyroid carcinoma
+label 84	follicular thyroid carcinoma
+label 85	follicular thyroid carcinoma
+label 86	follicular thyroid carcinoma
+label 87	follicular thyroid adenoma
+label 88	follicular thyroid adenoma
+label 89	follicular thyroid adenoma
+label 90	follicular thyroid adenoma
+label 91	follicular thyroid adenoma
+label 92	follicular thyroid adenoma
+label 93	follicular thyroid adenoma
+label 94	follicular thyroid adenoma
+label 95	follicular thyroid adenoma
+label 96	follicular thyroid adenoma
+label 97	follicular thyroid adenoma
+label 98	colon carcinoma
+label 99	colon carcinoma
+label 100	colon carcinoma
+label 101	colon carcinoma
+label 102	colon carcinoma
+label 103	colon carcinoma
+label 104	colon carcinoma
+label 105	colon carcinoma
+label 106	colon carcinoma
+label 107	colon carcinoma
+label 108	colon carcinoma
+label 109	colon carcinoma
+label 110	colon carcinoma
+label 111	colon carcinoma
+label 112	colon carcinoma
+label 113	colon carcinoma
+label 114	colon carcinoma
+label 115	colon carcinoma
+label 116	colon carcinoma
+label 117	colon carcinoma
+label 118	colon carcinoma
+label 119	colon carcinoma
+label 120	colon carcinoma
+label 121	colon carcinoma
+label 122	colon carcinoma
+label 123	colon carcinoma
+label 124	colon carcinoma
+label 125	colon carcinoma
+label 126	colon carcinoma
+label 127	colon carcinoma
+label 128	colon carcinoma
+label 129	colon carcinoma
+label 130	"AIDS-KS, HIV+, nodular (late) stage"
+label 131	"AIDS-KS, HIV+, nodular (late) stage"
+label 132	"AIDS-KS, HIV+, nodular (late) stage"
+label 133	"AIDS-KS, HIV+, nodular (late) stage"
+label 134	"AIDS-KS, HIV+, nodular (late) stage"
+label 135	"Classic-KS, HIV-, nodular (late) stage"
+label 136	normal
+label 137	normal
+label 138	normal
+label 139	normal
+label 140	normal
+label 141	"AIDS-KS, KSHV-"
+label 142	"iatrogenic-KS, KSHV-"
+label 143	"KSHV infection, 2 days"
+label 144	"KSHV infection, 2 days"
+label 145	"KSHV infection, 2 days"
+label 146	"KSHV infection, 7 days"
+label 147	"KSHV infection, 14 days"
+label 148	"KSHV infection, 2 days"
+label 149	"KSHV infection, 2 days"
+label 150	"KSHV infection, 2 days"
+label 151	"KSHV infection, 7 days"
+label 152	acute lymphoblastic leukemia
+label 153	acute lymphoblastic leukemia
+label 154	acute lymphoblastic leukemia
+label 155	acute lymphoblastic leukemia
+label 156	acute lymphoblastic leukemia
+label 157	acute lymphoblastic leukemia
+label 158	acute lymphoblastic leukemia
+label 159	acute lymphoblastic leukemia
+label 160	acute lymphoblastic leukemia
+label 161	acute lymphoblastic leukemia
+label 162	acute lymphoblastic leukemia
+label 163	acute lymphoblastic leukemia
+label 164	acute lymphoblastic leukemia
+label 165	acute lymphoblastic leukemia
+label 166	acute lymphoblastic leukemia
+label 167	acute lymphoblastic leukemia
+label 168	acute lymphoblastic leukemia
+label 169	acute lymphoblastic leukemia
+label 170	acute lymphoblastic leukemia
+label 171	acute lymphoblastic leukemia
+label 172	acute lymphoblastic leukemia
+label 173	acute lymphoblastic leukemia
+label 174	acute lymphoblastic leukemia
+label 175	acute lymphoblastic leukemia
+label 176	acute lymphoblastic leukemia
+label 177	acute lymphoblastic leukemia
+label 178	acute lymphoblastic leukemia
+label 179	acute lymphoblastic leukemia
+label 180	acute lymphoblastic leukemia
+label 181	acute lymphoblastic leukemia
+label 182	acute lymphoblastic leukemia
+label 183	acute lymphoblastic leukemia
+label 184	acute lymphoblastic leukemia
+label 185	acute lymphoblastic leukemia
+label 186	acute lymphoblastic leukemia
+label 187	embryonal rhabdomyosarcoma
+label 188	embryonal rhabdomyosarcoma
+label 189	embryonal rhabdomyosarcoma
+label 190	embryonal rhabdomyosarcoma
+label 191	embryonal rhabdomyosarcoma
+label 192	alveolar rhabdomyosarcoma
+label 193	embryonal rhabdomyosarcoma
+label 194	alveolar rhabdomyosarcoma
+label 195	alveolar rhabdomyosarcoma
+label 196	embryonal rhabdomyosarcoma
+label 197	embryonal rhabdomyosarcoma
+label 198	alveolar rhabdomyosarcoma
+label 199	embryonal rhabdomyosarcoma
+label 200	embryonal rhabdomyosarcoma
+label 201	embryonal rhabdomyosarcoma
+label 202	embryonal rhabdomyosarcoma
+label 203	embryonal rhabdomyosarcoma
+label 204	embryonal rhabdomyosarcoma
+label 205	embryonal rhabdomyosarcoma
+label 206	alveolar rhabdomyosarcoma
+label 207	alveolar rhabdomyosarcoma
+label 208	alveolar rhabdomyosarcoma
+label 209	alveolar rhabdomyosarcoma
+label 210	alveolar rhabdomyosarcoma
+label 211	alveolar rhabdomyosarcoma
+label 212	alveolar rhabdomyosarcoma
+label 213	alveolar rhabdomyosarcoma
+label 214	alveolar rhabdomyosarcoma
+label 215	alveolar rhabdomyosarcoma
+label 216	alveolar rhabdomyosarcoma
+label 217	acute promyelocytic leukemia
+label 218	acute promyelocytic leukemia
+label 219	acute promyelocytic leukemia
+label 220	acute promyelocytic leukemia
+label 221	acute promyelocytic leukemia
+label 222	acute promyelocytic leukemia
+label 223	acute promyelocytic leukemia
+label 224	acute promyelocytic leukemia
+label 225	acute promyelocytic leukemia
+label 226	acute promyelocytic leukemia
+label 227	acute promyelocytic leukemia
+label 228	acute promyelocytic leukemia
+label 229	healthy
+label 230	healthy
+label 231	healthy
+label 232	healthy
+label 233	healthy
+label 234	healthy
+label 235	healthy
+label 236	healthy
+label 237	healthy
+label 238	healthy
+label 239	healthy
+label 240	healthy
+label 241	colon adenocarcinoma
+label 242	colon adenocarcinoma
+label 243	colon adenocarcinoma
+label 244	colon adenocarcinoma
+label 245	colon adenocarcinoma
+label 246	colon adenocarcinoma
+label 247	colon adenocarcinoma
+label 248	colon adenocarcinoma
+label 249	control brain
+label 250	Huntington's Disease (HD) Pathological Grade 2
+label 251	Huntington's Disease (HD) Pathological Grade 2
+label 252	control brain
+label 253	Huntington's Disease (HD) Pathological Grade 3
+label 254	Huntington's Disease (HD) Pathological Grade 2
+label 255	control brain
+label 256	Huntington's Disease (HD) Pathological Grade 1
+label 257	control brain
+label 258	Huntington's Disease (HD) Pathological Grade 1
+label 259	control brain
+label 260	control brain
+label 261	Huntington's Disease (HD) Pathological Grade 4
+label 262	Huntington's Disease (HD) Pathological Grade 0
+label 263	Huntington's Disease (HD) Pathological Grade 4
+label 264	control brain
+label 265	control brain
+label 266	control brain
+label 267	control brain
+label 268	Huntington's Disease (HD) Pathological Grade 2
+label 269	Huntington's Disease (HD) Pathological Grade 1
+label 270	control brain
+label 271	control brain
+label 272	Huntington's Disease (HD) Pathological Grade 1
+label 273	Huntington's Disease (HD) Pathological Grade 1
+label 274	control brain
+label 275	Huntington's Disease (HD) Pathological Grade 1
+label 276	control brain
+label 277	control brain
+label 278	Huntington's Disease (HD) Pathological Grade 0
+label 279	control brain
+label 280	control brain
+label 281	Huntington's Disease (HD) Pathological Grade 2
+label 282	control brain
+label 283	control brain
+label 284	control brain
+label 285	Huntington's Disease (HD) Pathological Grade 2
+label 286	control brain
+label 287	Huntington's Disease (HD) Pathological Grade 2
+label 288	Huntington's Disease (HD) Pathological Grade 2
+label 289	Huntington's Disease (HD) Pathological Grade 2
+label 290	Huntington's Disease (HD) Pathological Grade 1
+label 291	Huntington's Disease (HD) Pathological Grade 1
+label 292	Huntington's Disease (HD) Pathological Grade 1
+label 293	control brain
+label 294	control brain
+label 295	control brain
+label 296	Huntington's Disease (HD) Pathological Grade 4
+label 297	Huntington's Disease (HD) Pathological Grade 1
+label 298	Huntington's Disease (HD) Pathological Grade 1
+label 299	Huntington's Disease (HD) Pathological Grade 4
+label 300	control brain
+label 301	control brain
+label 302	control brain
+label 303	Huntington's Disease (HD) Pathological Grade 3
+label 304	Huntington's Disease (HD) Pathological Grade 2
+label 305	control brain
+label 306	Huntington's Disease (HD) Pathological Grade 2
+label 307	Huntington's Disease (HD) Pathological Grade 3
+label 308	Huntington's Disease (HD) Pathological Grade 3
+label 309	control brain
+label 310	control brain
+label 311	control brain
+label 312	Huntington's Disease (HD) Pathological Grade 4
+label 313	Huntington's Disease (HD) Pathological Grade 0
+label 314	Huntington's Disease (HD) Pathological Grade 1
+label 315	Huntington's Disease (HD) Pathological Grade 3
+label 316	Huntington's Disease (HD) Pathological Grade 3
+label 317	Huntington's Disease (HD) Pathological Grade 2
+label 318	Huntington's Disease (HD) Pathological Grade 3
+label 319	Huntington's Disease (HD) Pathological Grade 2
+label 320	Huntington's Disease (HD) Pathological Grade 4
+label 321	Huntington's Disease (HD) Pathological Grade 2
+label 322	control brain
+label 323	control brain
+label 324	control brain
+label 325	control brain
+label 326	Huntington's Disease (HD) Pathological Grade 2
+label 327	control brain
+label 328	control brain
+label 329	Huntington's Disease (HD) Pathological Grade 3
+label 330	Huntington's Disease (HD) Pathological Grade 4
+label 331	Huntington's Disease (HD) Pathological Grade 3
+label 332	control brain
+label 333	Huntington's Disease (HD) Pathological Grade 0
+label 334	Huntington's Disease (HD) Pathological Grade 4
+label 335	Huntington's Disease (HD) Pathological Grade 3
+label 336	Huntington's Disease (HD) Pathological Grade 2
+label 337	Huntington's Disease (HD) Pathological Grade 4
+label 338	control brain
+label 339	control brain
+label 340	control brain
+label 341	control brain
+label 342	control brain
+label 343	control brain
+label 344	control brain
+label 345	control brain
+label 346	control brain
+label 347	control brain
+label 348	control brain
+label 349	control brain
+label 350	control brain
+label 351	control brain
+label 352	control brain
+label 353	control brain
+label 354	control brain
+label 355	control brain
+label 356	control brain
+label 357	control brain
+label 358	control brain
+label 359	control brain
+label 360	control brain
+label 361	control brain
+label 362	control brain
+label 363	control brain
+label 364	control brain
+label 365	control brain
+label 366	control brain
+label 367	control brain
+label 368	control brain
+label 369	control brain
+label 370	control brain
+label 371	control brain
+label 372	control brain
+label 373	control brain
+label 374	control brain
+label 375	control brain
+label 376	control brain
+label 377	control brain
+label 378	control brain
+label 379	control brain
+label 380	control brain
+label 381	control brain
+label 382	control brain
+label 383	control brain
+label 384	control brain
+label 385	control brain
+label 386	control brain
+label 387	Huntington's Disease (HD) Pathological Grade 3
+label 388	Huntington's Disease (HD) Pathological Grade 3
+label 389	Huntington's Disease (HD) Pathological Grade 3
+label 390	Huntington's Disease (HD) Pathological Grade 1
+label 391	Huntington's Disease (HD) Pathological Grade 1
+label 392	Huntington's Disease (HD) Pathological Grade 1
+label 393	Huntington's Disease (HD) Pathological Grade 1
+label 394	Huntington's Disease (HD) Pathological Grade 1
+label 395	Huntington's Disease (HD) Pathological Grade 1
+label 396	Huntington's Disease (HD) Pathological Grade 1
+label 397	Huntington's Disease (HD) Pathological Grade 2
+label 398	Huntington's Disease (HD) Pathological Grade 2
+label 399	Huntington's Disease (HD) Pathological Grade 1
+label 400	Huntington's Disease (HD) Pathological Grade 1
+label 401	Huntington's Disease (HD) Pathological Grade 1
+label 402	Huntington's Disease (HD) Pathological Grade 1
+label 403	Huntington's Disease (HD) Pathological Grade 1
+label 404	Huntington's Disease (HD) Pathological Grade 1
+label 405	Huntington's Disease (HD) Pathological Grade 2
+label 406	Huntington's Disease (HD) Pathological Grade 2
+label 407	Huntington's Disease (HD) Pathological Grade 2
+label 408	Huntington's Disease (HD) Pathological Grade 2
+label 409	Huntington's Disease (HD) Pathological Grade 2
+label 410	Huntington's Disease (HD) Pathological Grade 2
+label 411	Huntington's Disease (HD) Pathological Grade 2
+label 412	Huntington's Disease (HD) Pathological Grade 2
+label 413	Huntington's Disease (HD) Pathological Grade 2
+label 414	Huntington's Disease (HD) Pathological Grade 2
+label 415	Huntington's Disease (HD) Pathological Grade 2
+label 416	Huntington's Disease (HD) Pathological Grade 2
+label 417	Huntington's Disease (HD) Pathological Grade 0
+label 418	Huntington's Disease (HD) Pathological Grade 0
+label 419	Huntington's Disease (HD) Pathological Grade 0
+label 420	Huntington's Disease (HD) Pathological Grade 1
+label 421	Huntington's Disease (HD) Pathological Grade 1
+label 422	Huntington's Disease (HD) Pathological Grade 1
+label 423	Huntington's Disease (HD) Pathological Grade 2
+label 424	Huntington's Disease (HD) Pathological Grade 2
+label 425	Huntington's Disease (HD) Pathological Grade 2
+label 426	Huntington's Disease (HD) Pathological Grade 0
+label 427	Huntington's Disease (HD) Pathological Grade 0
+label 428	Huntington's Disease (HD) Pathological Grade 2
+label 429	Huntington's Disease (HD) Pathological Grade 2
+label 430	Huntington's Disease (HD) Pathological Grade 2
+label 431	Huntington's Disease (HD) Pathological Grade 2
+label 432	Huntington's Disease (HD) Pathological Grade 2
+label 433	Huntington's Disease (HD) Pathological Grade 2
+label 434	Huntington's Disease (HD) Pathological Grade 1
+label 435	Huntington's Disease (HD) Pathological Grade 1
+label 436	Huntington's Disease (HD) Pathological Grade 1
+label 437	Huntington's Disease (HD) Pathological Grade 2
+label 438	Huntington's Disease (HD) Pathological Grade 2
+label 439	Huntington's Disease (HD) Pathological Grade 2
+label 440	Huntington's Disease (HD) Pathological Grade 2
+label 441	Huntington's Disease (HD) Pathological Grade 1
+label 442	Huntington's Disease (HD) Pathological Grade 1
+label 443	Huntington's Disease (HD) Pathological Grade 1
+label 444	Huntington's Disease (HD) Pathological Grade 2
+label 445	Huntington's Disease (HD) Pathological Grade 2
+label 446	Huntington's Disease (HD) Pathological Grade 1
+label 447	Huntington's Disease (HD) Pathological Grade 1
+label 448	Huntington's Disease (HD) Pathological Grade 1
+label 449	Huntington's Disease (HD) Pathological Grade 1
+label 450	promyelocytic leukemia HL-60
+label 451	chronic myelogenous leukemia K562
+label 452	lymphoblastic leukemia MOLT-4
+label 453	promyelocytic leukemia HL-60
+label 454	chronic myelogenous leukemia K562
+label 455	lymphoblastic leukemia MOLT-4
+label 456	Daudi Burkitt's lymphoma
+label 457	Daudi Burkitt's lymphoma
+label 458	colorectal adenocarcinoma
+label 459	Raji Burkitt's lymphoma
+label 460	colorectal adenocarcinoma
+label 461	Raji Burkitt's lymphoma
+label 462	congestive heart failure
+label 463	sudden death
+label 464	congestive heart failure
+label 465	sudden death
+label 466	intracranial hemorrhage NOS
+label 467	intracranial hemorrhage NOS
+label 468	normal
+label 469	normal
+label 470	normal
+label 471	normal
+label 472	normal
+label 473	normal
+label 474	normal
+label 475	normal
+label 476	normal
+label 477	normal
+label 478	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage I
+label 479	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage I
+label 480	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage I
+label 481	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage I
+label 482	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage I
+label 483	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage I
+label 484	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage I
+label 485	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage I
+label 486	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage I
+label 487	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage I
+label 488	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage III
+label 489	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage I
+label 490	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage IV
+label 491	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage I
+label 492	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage I
+label 493	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage III
+label 494	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage II
+label 495	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage I
+label 496	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage I
+label 497	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage I
+label 498	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage II
+label 499	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage II
+label 500	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage II
+label 501	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage III
+label 502	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage I
+label 503	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage I
+label 504	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage I
+label 505	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage III
+label 506	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage I
+label 507	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage III
+label 508	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage I
+label 509	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage II
+label 510	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage III
+label 511	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage II
+label 512	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage III
+label 513	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage III
+label 514	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage I
+label 515	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage I
+label 516	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage III
+label 517	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage III
+label 518	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage IV
+label 519	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage I
+label 520	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage I
+label 521	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage III
+label 522	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage II
+label 523	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage II
+label 524	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage III
+label 525	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage III
+label 526	lung adenocarcinoma (NCI_Thesaurus C0152013) has DiseaseStaging Stage III
+label 527	normal
+label 528	normal
+label 529	normal
+label 530	normal
+label 531	seasonal allergy
+label 532	seasonal allergy
+label 533	seasonal allergy
+label 534	2h after infection with fasX-mutant Streptococcus pyogenes
+label 535	2h after infection with fasX-mutant Streptococcus pyogenes
+label 536	control sample without infection after 2h
+label 537	control sample without infection after 2h
+label 538	2h after infection with wildtype Streptococcus pyogenes
+label 539	2h after infection with wildtype Streptococcus pyogenes
+label 540	4h after infection with fasX-mutant Streptococcus pyogenes
+label 541	4h after infection with fasX-mutant Streptococcus pyogenes
+label 542	4h after infection with wildtype Streptococcus pyogenes
+label 543	4h after infection with wildtype Streptococcus pyogenes
+label 544	6h after infection with fasX-mutant Streptococcus pyogenes
+label 545	6h after infection with fasX-mutant Streptococcus pyogenes
+label 546	6h after infection with wildtype Streptococcus pyogenes
+label 547	6h after infection with wildtype Streptococcus pyogenes
+label 548	8h after infection with fasX-mutant Streptococcus pyogenes
+label 549	8h after infection with fasX-mutant Streptococcus pyogenes
+label 550	control sample without infection after 8h
+label 551	control sample without infection after 8h
+label 552	8h after infection with wildtype Streptococcus pyogenes
+label 553	8h after infection with wildtype Streptococcus pyogenes
+label 554	adenocarcinoma
+label 555	adenocarcinoma
+label 556	adenocarcinoma
+label 557	adenocarcinoma
+label 558	healthy
+label 559	healthy
+label 560	healthy
+label 561	healthy
+label 562	healthy
+label 563	healthy
+label 564	monophasic synovial sarcoma
+label 565	leiomyosarcoma
+label 566	alveolar rhabdomyosarcoma
+label 567	alveolar rhabdomyosarcoma
+label 568	alveolar rhabdomyosarcoma
+label 569	alveolar rhabdomyosarcoma
+label 570	embryonal rhabdomyosarcoma
+label 571	embryonal rhabdomyosarcoma
+label 572	embryonal rhabdomyosarcoma
+label 573	Ewing's Sarcoma
+label 574	Ewing's Sarcoma
+label 575	Ewing's Sarcoma
+label 576	Ewing's Sarcoma
+label 577	Ewing's Sarcoma
+label 578	leiomyosarcoma
+label 579	leiomyosarcoma
+label 580	chondrosarcoma
+label 581	osteosarcoma
+label 582	myxoid liposarcoma
+label 583	lipoma
+label 584	leiomyosarcoma
+label 585	monophasic synovial sarcoma
+label 586	chondrosarcoma
+label 587	monophasic synovial sarcoma
+label 588	neurofibroma
+label 589	fibromatosis
+label 590	dedifferentiated chondrosarcoma
+label 591	well-differentiated liposarcoma
+label 592	monophasic synovial sarcoma
+label 593	schwannoma
+label 594	malignant peripheral nerve sheath tumor
+label 595	myxoid liposarcoma
+label 596	well-differentiated liposarcoma
+label 597	leiomyosarcoma
+label 598	monophasic synovial sarcoma
+label 599	monophasic synovial sarcoma
+label 600	lipoma
+label 601	neurofibroma
+label 602	monophasic synovial sarcoma
+label 603	fibromatosis
+label 604	osteosarcoma
+label 605	fibromatosis
+label 606	well-differentiated liposarcoma
+label 607	fibromatosis
+label 608	sarcoma
+label 609	chondrosarcoma
+label 610	dedifferentiated chondrosarcoma
+label 611	malignant peripheral nerve sheath tumor
+label 612	leiomyosarcoma
+label 613	leiomyosarcoma
+label 614	chondroblastoma
+label 615	chondrosarcoma
+label 616	monophasic synovial sarcoma
+label 617	sarcoma
+label 618	chondrosarcoma
+label 619	dedifferentiated chondrosarcoma
+label 620	osteosarcoma
+label 621	myxoid liposarcoma
+label 622	osteosarcoma
+label 623	myxoid liposarcoma
+label 624	myxoid liposarcoma
+label 625	leiomyosarcoma
+label 626	myxoid liposarcoma
+label 627	sarcoma
+label 628	fibromatosis
+label 629	chondrosarcoma
+label 630	neurofibroma
+label 631	osteosarcoma
+label 632	chordoma
+label 633	osteosarcoma
+label 634	osteosarcoma
+label 635	osteosarcoma
+label 636	osteosarcoma
+label 637	chondroblastoma
+label 638	chordoma
+label 639	chondroblastoma
+label 640	osteosarcoma
+label 641	lipoma
+label 642	malignant peripheral nerve sheath tumor
+label 643	myxoid liposarcoma
+label 644	chordoma
+label 645	neurofibroma
+label 646	monophasic synovial sarcoma
+label 647	monophasic synovial sarcoma
+label 648	schwannoma
+label 649	malignant peripheral nerve sheath tumor
+label 650	chordoma
+label 651	schwannoma
+label 652	osteosarcoma
+label 653	chondromyxoid fibroma
+label 654	chondromyxoid fibroma
+label 655	chondromyxoid fibroma
+label 656	chondromyxoid fibroma
+label 657	schwannoma
+label 658	chondrosarcoma
+label 659	chondroblastoma
+label 660	no tendon xanthomas
+label 661	no tendon xanthomas
+label 662	tendon xanthomas
+label 663	tendon xanthomas
+label 664	prostate cancer
+label 665	prostate cancer
+label 666	normal
+label 667	prostate cancer
+label 668	prostate cancer
+label 669	normal
+label 670	prostate cancer
+label 671	prostate cancer
+label 672	prostate cancer
+label 673	prostate cancer
+label 674	prostate cancer
+label 675	normal
+label 676	prostate cancer
+label 677	normal
+label 678	prostate cancer
+label 679	normal
+label 680	prostate cancer
+label 681	normal
+label 682	prostate cancer
+label 683	prostate cancer
+label 684	prostate cancer
+label 685	prostate cancer
+label 686	prostate cancer
+label 687	prostate cancer
+label 688	prostate cancer
+label 689	prostate cancer
+label 690	prostate cancer
+label 691	prostate cancer
+label 692	prostate cancer
+label 693	prostate cancer
+label 694	prostate cancer
+label 695	normal
+label 696	normal
+label 697	prostate cancer
+label 698	prostate cancer
+label 699	prostate cancer
+label 700	prostate cancer
+label 701	normal
+label 702	prostate cancer
+label 703	prostate cancer
+label 704	normal
+label 705	prostate cancer
+label 706	prostate cancer
+label 707	prostate cancer
+label 708	prostate cancer
+label 709	normal
+label 710	prostate cancer
+label 711	prostate cancer
+label 712	prostate cancer
+label 713	normal
+label 714	normal
+label 715	prostate cancer
+label 716	prostate cancer
+label 717	prostate cancer
+label 718	prostate cancer
+label 719	prostate cancer
+label 720	prostate cancer
+label 721	precursor T lymphoblastic leukemia
+label 722	precursor T lymphoblastic leukemia
+label 723	precursor T lymphoblastic leukemia
+label 724	precursor T lymphoblastic leukemia
+label 725	precursor T lymphoblastic leukemia
+label 726	precursor T lymphoblastic leukemia
+label 727	precursor T lymphoblastic leukemia
+label 728	precursor T lymphoblastic leukemia
+label 729	precursor T lymphoblastic leukemia
+label 730	precursor T lymphoblastic leukemia
+label 731	precursor T lymphoblastic leukemia
+label 732	precursor T lymphoblastic leukemia
+label 733	precursor T lymphoblastic leukemia
+label 734	precursor T lymphoblastic leukemia
+label 735	precursor T lymphoblastic leukemia
+label 736	precursor T lymphoblastic leukemia
+label 737	precursor T lymphoblastic leukemia
+label 738	precursor T lymphoblastic leukemia
+label 739	precursor T lymphoblastic leukemia
+label 740	precursor T lymphoblastic leukemia
+label 741	precursor T lymphoblastic leukemia
+label 742	precursor T lymphoblastic leukemia
+label 743	precursor T lymphoblastic leukemia
+label 744	precursor T lymphoblastic leukemia
+label 745	precursor T lymphoblastic leukemia
+label 746	precursor T lymphoblastic leukemia
+label 747	precursor T lymphoblastic leukemia
+label 748	precursor T lymphoblastic leukemia
+label 749	precursor T lymphoblastic leukemia
+label 750	precursor T lymphoblastic leukemia
+label 751	precursor T lymphoblastic leukemia
+label 752	precursor T lymphoblastic leukemia
+label 753	precursor T lymphoblastic leukemia
+label 754	precursor T lymphoblastic leukemia
+label 755	precursor T lymphoblastic leukemia
+label 756	precursor T lymphoblastic leukemia
+label 757	precursor T lymphoblastic leukemia
+label 758	precursor T lymphoblastic leukemia
+label 759	precursor T lymphoblastic leukemia
+label 760	precursor T lymphoblastic leukemia
+label 761	precursor T lymphoblastic leukemia
+label 762	precursor T lymphoblastic leukemia
+label 763	precursor T lymphoblastic leukemia
+label 764	precursor T lymphoblastic leukemia
+label 765	precursor T lymphoblastic leukemia
+label 766	precursor T lymphoblastic leukemia
+label 767	precursor T lymphoblastic leukemia
+label 768	precursor T lymphoblastic leukemia
+label 769	precursor T lymphoblastic leukemia
+label 770	precursor T lymphoblastic leukemia
+label 771	precursor T lymphoblastic leukemia
+label 772	precursor T lymphoblastic leukemia
+label 773	precursor T lymphoblastic leukemia
+label 774	precursor T lymphoblastic leukemia
+label 775	precursor T lymphoblastic leukemia
+label 776	precursor T lymphoblastic leukemia
+label 777	precursor T lymphoblastic leukemia
+label 778	precursor T lymphoblastic leukemia
+label 779	precursor T lymphoblastic leukemia
+label 780	precursor T lymphoblastic leukemia
+label 781	precursor T lymphoblastic leukemia
+label 782	precursor T lymphoblastic leukemia
+label 783	precursor T lymphoblastic leukemia
+label 784	precursor T lymphoblastic leukemia
+label 785	precursor T lymphoblastic leukemia
+label 786	precursor T lymphoblastic leukemia
+label 787	precursor T lymphoblastic leukemia
+label 788	precursor T lymphoblastic leukemia
+label 789	precursor T lymphoblastic leukemia
+label 790	precursor T lymphoblastic leukemia
+label 791	precursor T lymphoblastic leukemia
+label 792	precursor T lymphoblastic leukemia
+label 793	precursor T lymphoblastic leukemia
+label 794	precursor T lymphoblastic leukemia
+label 795	precursor T lymphoblastic leukemia
+label 796	precursor T lymphoblastic leukemia
+label 797	precursor T lymphoblastic leukemia
+label 798	precursor T lymphoblastic leukemia
+label 799	precursor T lymphoblastic leukemia
+label 800	precursor T lymphoblastic leukemia
+label 801	precursor T lymphoblastic leukemia
+label 802	precursor T lymphoblastic leukemia
+label 803	precursor T lymphoblastic leukemia
+label 804	precursor T lymphoblastic leukemia
+label 805	precursor T lymphoblastic leukemia
+label 806	precursor T lymphoblastic leukemia
+label 807	precursor T lymphoblastic leukemia
+label 808	precursor T lymphoblastic leukemia
+label 809	precursor T lymphoblastic leukemia
+label 810	precursor T lymphoblastic leukemia
+label 811	precursor T lymphoblastic leukemia
+label 812	precursor T lymphoblastic leukemia
+label 813	precursor T lymphoblastic leukemia
+label 814	precursor T lymphoblastic leukemia
+label 815	precursor T lymphoblastic leukemia
+label 816	precursor T lymphoblastic leukemia
+label 817	precursor T lymphoblastic leukemia
+label 818	precursor T lymphoblastic leukemia
+label 819	precursor T lymphoblastic leukemia
+label 820	Burkitt's lymphoma
+label 821	Burkitt's lymphoma
+label 822	Burkitt's lymphoma
+label 823	Burkitt's lymphoma
+label 824	Burkitt's lymphoma
+label 825	Burkitt's lymphoma
+label 826	Burkitt's lymphoma
+label 827	Burkitt's lymphoma
+label 828	breast carcinoma
+label 829	breast carcinoma
+label 830	breast carcinoma
+label 831	breast carcinoma
+label 832	breast carcinoma
+label 833	breast carcinoma
+label 834	breast carcinoma
+label 835	breast carcinoma
+label 836	breast carcinoma
+label 837	breast carcinoma
+label 838	breast carcinoma
+label 839	breast carcinoma
+label 840	breast carcinoma
+label 841	breast carcinoma
+label 842	breast carcinoma
+label 843	breast carcinoma
+label 844	breast carcinoma
+label 845	breast carcinoma
+label 846	breast carcinoma
+label 847	breast carcinoma
+label 848	breast carcinoma
+label 849	breast carcinoma
+label 850	breast carcinoma
+label 851	breast carcinoma
+label 852	breast carcinoma
+label 853	breast carcinoma
+label 854	breast carcinoma
+label 855	breast carcinoma
+label 856	breast carcinoma
+label 857	breast carcinoma
+label 858	breast carcinoma
+label 859	breast carcinoma
+label 860	breast carcinoma
+label 861	breast carcinoma
+label 862	breast carcinoma
+label 863	breast carcinoma
+label 864	normal
+label 865	normal
+label 866	colorectal adenocarcinoma
+label 867	colorectal adenocarcinoma
+label 868	colorectal adenocarcinoma
+label 869	colorectal adenocarcinoma
+label 870	colorectal adenocarcinoma
+label 871	colorectal adenocarcinoma
+label 872	colorectal adenocarcinoma
+label 873	colorectal adenocarcinoma
+label 874	colorectal adenocarcinoma
+label 875	colorectal adenocarcinoma
+label 876	colorectal adenocarcinoma
+label 877	colorectal adenocarcinoma
+label 878	colorectal adenocarcinoma
+label 879	colorectal adenocarcinoma
+label 880	colorectal adenocarcinoma
+label 881	colorectal adenocarcinoma
+label 882	colorectal adenocarcinoma
+label 883	colorectal adenocarcinoma
+label 884	colorectal adenocarcinoma
+label 885	colorectal adenocarcinoma
+label 886	colorectal adenocarcinoma
+label 887	colorectal adenocarcinoma
+label 888	colorectal adenocarcinoma
+label 889	colorectal adenocarcinoma
+label 890	colorectal adenocarcinoma
+label 891	colorectal adenocarcinoma
+label 892	colorectal adenocarcinoma
+label 893	colorectal adenocarcinoma
+label 894	colorectal adenocarcinoma
+label 895	colorectal adenocarcinoma
+label 896	colorectal adenocarcinoma
+label 897	colorectal adenocarcinoma
+label 898	colorectal adenocarcinoma
+label 899	colorectal adenocarcinoma
+label 900	colorectal adenocarcinoma
+label 901	colorectal adenocarcinoma
+label 902	chronic myelogenous leukemia
+label 903	chronic myelogenous leukemia
+label 904	chronic myelogenous leukemia
+label 905	chronic myelogenous leukemia
+label 906	chronic myelogenous leukemia
+label 907	chronic myelogenous leukemia
+label 908	chronic myelogenous leukemia
+label 909	chronic myelogenous leukemia
+label 910	chronic myelogenous leukemia
+label 911	chronic myelogenous leukemia
+label 912	chronic myelogenous leukemia
+label 913	chronic myelogenous leukemia
+label 914	chronic myelogenous leukemia
+label 915	chronic myelogenous leukemia
+label 916	chronic myelogenous leukemia
+label 917	chronic myelogenous leukemia
+label 918	chronic myelogenous leukemia
+label 919	chronic myelogenous leukemia
+label 920	chronic myelogenous leukemia
+label 921	chronic myelogenous leukemia
+label 922	T cell acute lymphoblastic leukemia
+label 923	T cell acute lymphoblastic leukemia
+label 924	T cell acute lymphoblastic leukemia
+label 925	T cell acute lymphoblastic leukemia
+label 926	T cell acute lymphoblastic leukemia
+label 927	T cell acute lymphoblastic leukemia
+label 928	T cell acute lymphoblastic leukemia
+label 929	T cell acute lymphoblastic leukemia
+label 930	T cell acute lymphoblastic leukemia
+label 931	T cell acute lymphoblastic leukemia
+label 932	T cell acute lymphoblastic leukemia
+label 933	T cell acute lymphoblastic leukemia
+label 934	T cell acute lymphoblastic leukemia
+label 935	T cell acute lymphoblastic leukemia
+label 936	T cell acute lymphoblastic leukemia
+label 937	T cell acute lymphoblastic leukemia
+label 938	T cell acute lymphoblastic leukemia
+label 939	T cell acute lymphoblastic leukemia
+label 940	T cell acute lymphoblastic leukemia
+label 941	T cell acute lymphoblastic leukemia
+label 942	T cell acute lymphoblastic leukemia
+label 943	chronic myeloid leukemia
+label 944	chronic myeloid leukemia
+label 945	chronic myeloid leukemia
+label 946	chronic myeloid leukemia
+label 947	chronic myeloid leukemia
+label 948	chronic myeloid leukemia
+label 949	chronic myeloid leukemia
+label 950	chronic myeloid leukemia
+label 951	chronic myeloid leukemia
+label 952	chronic myeloid leukemia
+label 953	chronic myeloid leukemia
+label 954	chronic myeloid leukemia
+label 955	chronic myeloid leukemia
+label 956	chronic myeloid leukemia
+label 957	chronic myeloid leukemia
+label 958	chronic myeloid leukemia
+label 959	chronic myeloid leukemia
+label 960	chronic myeloid leukemia
+label 961	chronic myeloid leukemia
+label 962	chronic myeloid leukemia
+label 963	chronic myeloid leukemia
+label 964	chronic myeloid leukemia
+label 965	chronic myeloid leukemia
+label 966	chronic myeloid leukemia
+label 967	chronic myeloid leukemia
+label 968	chronic myeloid leukemia
+label 969	chronic myeloid leukemia
+label 970	chronic myeloid leukemia
+label 971	chronic myeloid leukemia
+label 972	chronic myeloid leukemia
+label 973	chronic myeloid leukemia
+label 974	chronic myeloid leukemia
+label 975	chronic myeloid leukemia
+label 976	chronic myeloid leukemia
+label 977	chronic myeloid leukemia
+label 978	chronic myeloid leukemia
+label 979	chronic myeloid leukemia
+label 980	chronic myeloid leukemia
+label 981	chronic myeloid leukemia
+label 982	chronic myeloid leukemia
+label 983	chronic myeloid leukemia
+label 984	chronic myeloid leukemia
+label 985	chronic myeloid leukemia
+label 986	chronic myeloid leukemia
+label 987	chronic myeloid leukemia
+label 988	normal
+label 989	normal
+label 990	normal
+label 991	normal
+label 992	normal
+label 993	normal
+label 994	normal
+label 995	normal
+label 996	normal
+label 997	normal
+label 998	normal
+label 999	normal
+label 1000	normal
+label 1001	normal
+label 1002	normal
+label 1003	normal
+label 1004	normal
+label 1005	normal
+label 1006	low-stage neuroblastoma
+label 1007	low-stage neuroblastoma
+label 1008	low-stage neuroblastoma
+label 1009	low-stage neuroblastoma
+label 1010	high-stage neuroblastoma
+label 1011	high-stage neuroblastoma
+label 1012	high-stage neuroblastoma
+label 1013	low-stage neuroblastoma
+label 1014	high-stage neuroblastoma
+label 1015	high-stage neuroblastoma
+label 1016	high-stage neuroblastoma
+label 1017	high-stage neuroblastoma
+label 1018	high-stage neuroblastoma
+label 1019	high-stage neuroblastoma
+label 1020	high-stage neuroblastoma
+label 1021	high-stage neuroblastoma
+label 1022	high-stage neuroblastoma
+label 1023	high-stage neuroblastoma
+label 1024	B-cell lymphoma
+label 1025	B-cell lymphoma
+label 1026	"B-cell lymphoma, dlbcl"
+label 1027	B-cell lymphoma
+label 1028	"B-cell lymphoma, dlbcl"
+label 1029	"B-cell lymphoma, dlbcl"
+label 1030	"B-cell lymphoma, dlbcl"
+label 1031	"B-cell lymphoma, dlbcl"
+label 1032	"B-cell lymphoma, dlbcl"
+label 1033	"B-cell lymphoma, nhl"
+label 1034	B-cell lymphoma
+label 1035	"B-cell lymphoma, dlbcl"
+label 1036	"B-cell lymphoma, dlbcl"
+label 1037	"B-cell lymphoma, dlbcl"
+label 1038	B-cell lymphoma
+label 1039	B-cell lymphoma
+label 1040	"B-cell lymphoma, dlbcl"
+label 1041	"B-cell lymphoma, dlbcl"
+label 1042	"B-cell lymphoma, dlbcl"
+label 1043	"B-cell lymphoma, dlbcl"
+label 1044	"B-cell lymphoma, dlbcl"
+label 1045	"B-cell lymphoma, dlbcl"
+label 1046	B-cell lymphoma
+label 1047	"B-cell lymphoma, dlbcl"
+label 1048	"B-cell lymphoma, dlbcl"
+label 1049	"B-cell lymphoma, dlbcl"
+label 1050	"B-cell lymphoma, dlbcl"
+label 1051	B-cell lymphoma
+label 1052	B-cell lymphoma
+label 1053	"B-cell lymphoma, dlbcl"
+label 1054	"B-cell lymphoma, dlbcl"
+label 1055	"B-cell lymphoma, dlbcl"
+label 1056	"B-cell lymphoma, dlbcl"
+label 1057	"B-cell lymphoma, dlbcl"
+label 1058	"B-cell lymphoma, dlbcl"
+label 1059	"B-cell lymphoma, nhl"
+label 1060	B-cell lymphoma
+label 1061	B-cell lymphoma
+label 1062	"B-cell lymphoma, dlbcl"
+label 1063	"B-cell lymphoma, dlbcl"
+label 1064	"B-cell lymphoma, dlbcl"
+label 1065	B-cell lymphoma
+label 1066	"B-cell lymphoma, dlbcl"
+label 1067	"B-cell lymphoma, dlbcl"
+label 1068	"B-cell lymphoma, dlbcl"
+label 1069	B-cell lymphoma
+label 1070	B-cell lymphoma
+label 1071	"B-cell lymphoma, dlbcl"
+label 1072	"B-cell lymphoma, dlbcl"
+label 1073	"B-cell lymphoma, dlbcl"
+label 1074	"B-cell lymphoma, dlbcl"
+label 1075	"B-cell lymphoma, dlbcl"
+label 1076	"B-cell lymphoma, dlbcl"
+label 1077	"B-cell lymphoma, dlbcl"
+label 1078	"B-cell lymphoma, dlbcl"
+label 1079	"B-cell lymphoma, dlbcl"
+label 1080	B-cell lymphoma
+label 1081	"B-cell lymphoma, dlbcl"
+label 1082	"B-cell lymphoma, dlbcl"
+label 1083	"B-cell lymphoma, dlbcl"
+label 1084	"B-cell lymphoma, dlbcl"
+label 1085	"B-cell lymphoma, dlbcl"
+label 1086	B-cell lymphoma
+label 1087	"B-cell lymphoma, dlbcl"
+label 1088	B-cell lymphoma
+label 1089	B-cell lymphoma
+label 1090	B-cell lymphoma
+label 1091	B-cell lymphoma
+label 1092	"B-cell lymphoma, dlbcl"
+label 1093	B-cell lymphoma
+label 1094	B-cell lymphoma
+label 1095	"B-cell lymphoma, nhl"
+label 1096	"B-cell lymphoma, nhl"
+label 1097	"B-cell lymphoma, nhl"
+label 1098	B-cell lymphoma
+label 1099	"B-cell lymphoma, dlbcl"
+label 1100	"B-cell lymphoma, nhl"
+label 1101	"B-cell lymphoma, dlbcl"
+label 1102	"B-cell lymphoma, nhl"
+label 1103	"B-cell lymphoma, dlbcl"
+label 1104	B-cell lymphoma
+label 1105	"B-cell lymphoma, dlbcl"
+label 1106	"B-cell lymphoma, dlbcl"
+label 1107	"B-cell lymphoma, dlbcl"
+label 1108	"B-cell lymphoma, dlbcl"
+label 1109	B-cell lymphoma
+label 1110	"B-cell lymphoma, dlbcl"
+label 1111	"B-cell lymphoma, dlbcl"
+label 1112	"B-cell lymphoma, dlbcl"
+label 1113	"B-cell lymphoma, dlbcl"
+label 1114	"B-cell lymphoma, dlbcl"
+label 1115	"B-cell lymphoma, dlbcl"
+label 1116	"B-cell lymphoma, dlbcl"
+label 1117	"B-cell lymphoma, dlbcl"
+label 1118	"B-cell lymphoma, dlbcl"
+label 1119	"B-cell lymphoma, dlbcl"
+label 1120	B-cell lymphoma
+label 1121	"B-cell lymphoma, dlbcl"
+label 1122	"B-cell lymphoma, dlbcl"
+label 1123	"B-cell lymphoma, nhl"
+label 1124	"B-cell lymphoma, dlbcl"
+label 1125	"B-cell lymphoma, dlbcl"
+label 1126	"B-cell lymphoma, dlbcl"
+label 1127	"B-cell lymphoma, dlbcl"
+label 1128	"B-cell lymphoma, dlbcl"
+label 1129	B-cell lymphoma
+label 1130	"B-cell lymphoma, dlbcl"
+label 1131	"B-cell lymphoma, dlbcl"
+label 1132	"B-cell lymphoma, dlbcl"
+label 1133	"B-cell lymphoma, dlbcl"
+label 1134	"B-cell lymphoma, dlbcl"
+label 1135	"B-cell lymphoma, dlbcl"
+label 1136	"B-cell lymphoma, dlbcl"
+label 1137	"B-cell lymphoma, dlbcl"
+label 1138	"B-cell lymphoma, dlbcl"
+label 1139	"B-cell lymphoma, dlbcl"
+label 1140	"B-cell lymphoma, dlbcl"
+label 1141	"B-cell lymphoma, dlbcl"
+label 1142	B-cell lymphoma
+label 1143	B-cell lymphoma
+label 1144	"B-cell lymphoma, dlbcl"
+label 1145	"B-cell lymphoma, dlbcl"
+label 1146	"B-cell lymphoma, dlbcl"
+label 1147	"B-cell lymphoma, dlbcl"
+label 1148	B-cell lymphoma
+label 1149	"B-cell lymphoma, dlbcl"
+label 1150	"B-cell lymphoma, dlbcl"
+label 1151	B-cell lymphoma
+label 1152	B-cell lymphoma
+label 1153	"B-cell lymphoma, dlbcl"
+label 1154	"B-cell lymphoma, dlbcl"
+label 1155	"B-cell lymphoma, dlbcl"
+label 1156	"B-cell lymphoma, dlbcl"
+label 1157	"B-cell lymphoma, dlbcl"
+label 1158	"B-cell lymphoma, dlbcl"
+label 1159	"B-cell lymphoma, dlbcl"
+label 1160	"B-cell lymphoma, dlbcl"
+label 1161	"B-cell lymphoma, dlbcl"
+label 1162	"B-cell lymphoma, dlbcl"
+label 1163	"B-cell lymphoma, dlbcl"
+label 1164	"B-cell lymphoma, dlbcl"
+label 1165	"B-cell lymphoma, dlbcl"
+label 1166	"B-cell lymphoma, dlbcl"
+label 1167	"B-cell lymphoma, dlbcl"
+label 1168	"B-cell lymphoma, dlbcl"
+label 1169	B-cell lymphoma
+label 1170	"B-cell lymphoma, dlbcl"
+label 1171	"B-cell lymphoma, dlbcl"
+label 1172	"B-cell lymphoma, nhl"
+label 1173	B-cell lymphoma
+label 1174	"B-cell lymphoma, dlbcl"
+label 1175	B-cell lymphoma
+label 1176	"B-cell lymphoma, dlbcl"
+label 1177	"B-cell lymphoma, dlbcl"
+label 1178	B-cell lymphoma
+label 1179	"B-cell lymphoma, dlbcl"
+label 1180	"B-cell lymphoma, dlbcl"
+label 1181	"B-cell lymphoma, nhl"
+label 1182	"B-cell lymphoma, dlbcl"
+label 1183	"B-cell lymphoma, dlbcl"
+label 1184	"B-cell lymphoma, dlbcl"
+label 1185	"B-cell lymphoma, dlbcl"
+label 1186	"B-cell lymphoma, dlbcl"
+label 1187	"B-cell lymphoma, dlbcl"
+label 1188	"B-cell lymphoma, dlbcl"
+label 1189	"B-cell lymphoma, dlbcl"
+label 1190	"B-cell lymphoma, dlbcl"
+label 1191	"B-cell lymphoma, dlbcl"
+label 1192	"B-cell lymphoma, dlbcl"
+label 1193	"B-cell lymphoma, dlbcl"
+label 1194	"B-cell lymphoma, dlbcl"
+label 1195	"B-cell lymphoma, dlbcl"
+label 1196	"B-cell lymphoma, dlbcl"
+label 1197	"B-cell lymphoma, dlbcl"
+label 1198	"B-cell lymphoma, dlbcl"
+label 1199	"B-cell lymphoma, dlbcl"
+label 1200	"B-cell lymphoma, nhl"
+label 1201	"B-cell lymphoma, dlbcl"
+label 1202	"B-cell lymphoma, dlbcl"
+label 1203	"B-cell lymphoma, dlbcl"
+label 1204	"B-cell lymphoma, dlbcl"
+label 1205	"B-cell lymphoma, nhl"
+label 1206	"B-cell lymphoma, dlbcl"
+label 1207	"B-cell lymphoma, nhl"
+label 1208	"B-cell lymphoma, dlbcl"
+label 1209	"B-cell lymphoma, dlbcl"
+label 1210	"B-cell lymphoma, dlbcl"
+label 1211	"B-cell lymphoma, dlbcl"
+label 1212	"B-cell lymphoma, dlbcl"
+label 1213	"B-cell lymphoma, nhl"
+label 1214	"B-cell lymphoma, dlbcl"
+label 1215	"B-cell lymphoma, dlbcl"
+label 1216	"B-cell lymphoma, dlbcl"
+label 1217	"B-cell lymphoma, dlbcl"
+label 1218	"B-cell lymphoma, dlbcl"
+label 1219	"B-cell lymphoma, dlbcl"
+label 1220	B-cell lymphoma
+label 1221	"B-cell lymphoma, nhl"
+label 1222	"B-cell lymphoma, nhl"
+label 1223	"B-cell lymphoma, dlbcl"
+label 1224	"B-cell lymphoma, dlbcl"
+label 1225	"B-cell lymphoma, dlbcl"
+label 1226	"B-cell lymphoma, dlbcl"
+label 1227	"B-cell lymphoma, dlbcl"
+label 1228	"B-cell lymphoma, dlbcl"
+label 1229	"B-cell lymphoma, dlbcl"
+label 1230	"B-cell lymphoma, dlbcl"
+label 1231	"B-cell lymphoma, dlbcl"
+label 1232	"B-cell lymphoma, dlbcl"
+label 1233	"B-cell lymphoma, nhl"
+label 1234	"B-cell lymphoma, nhl"
+label 1235	"B-cell lymphoma, dlbcl"
+label 1236	"B-cell lymphoma, dlbcl"
+label 1237	"B-cell lymphoma, dlbcl"
+label 1238	"B-cell lymphoma, dlbcl"
+label 1239	"B-cell lymphoma, dlbcl"
+label 1240	"B-cell lymphoma, dlbcl"
+label 1241	"B-cell lymphoma, dlbcl"
+label 1242	"B-cell lymphoma, dlbcl"
+label 1243	"B-cell lymphoma, dlbcl"
+label 1244	"B-cell lymphoma, dlbcl"
+label 1245	cystic fibrosis
+label 1246	cystic fibrosis
+label 1247	cystic fibrosis
+label 1248	cystic fibrosis
+label 1249	cystic fibrosis
+label 1250	cystic fibrosis
+label 1251	meningitis infected
+label 1252	meningitis infected
+label 1253	meningitis infected
+label 1254	meningitis infected
+label 1255	meningitis infected
+label 1256	meningitis infected
+label 1257	meningitis infected
+label 1258	meningitis infected
+label 1259	meningitis infected
+label 1260	meningitis infected
+label 1261	meningitis infected
+label 1262	meningitis infected
+label 1263	meningitis infected
+label 1264	meningitis infected
+label 1265	meningitis infected
+label 1266	meningitis infected
+label 1267	meningitis infected
+label 1268	meningitis infected
+label 1269	meningitis infected
+label 1270	meningitis infected
+label 1271	meningitis infected
+label 1272	meningitis infected
+label 1273	meningitis infected
+label 1274	breast tumor
+label 1275	"breast tumor, luminal"
+label 1276	"breast tumor, luminal"
+label 1277	breast tumor
+label 1278	"breast tumor, luminal"
+label 1279	"breast tumor, luminal"
+label 1280	"breast tumor, luminal"
+label 1281	breast tumor
+label 1282	"breast tumor, basal"
+label 1283	breast tumor
+label 1284	"breast tumor, basal"
+label 1285	breast tumor
+label 1286	"breast tumor, luminal"
+label 1287	"breast tumor, luminal"
+label 1288	"breast tumor, normal like"
+label 1289	breast tumor
+label 1290	"breast tumor, luminal"
+label 1291	"breast tumor, basal"
+label 1292	"breast tumor, basal"
+label 1293	"breast tumor, luminal"
+label 1294	"breast tumor, luminal"
+label 1295	"breast tumor, luminal"
+label 1296	"breast tumor, luminal"
+label 1297	breast tumor
+label 1298	"breast tumor, normal like"
+label 1299	"breast tumor, luminal"
+label 1300	"breast tumor, normal like"
+label 1301	"breast tumor, luminal"
+label 1302	"breast tumor, normal like"
+label 1303	"breast tumor, basal"
+label 1304	"breast tumor, basal"
+label 1305	"breast tumor, luminal"
+label 1306	"breast tumor, normal like"
+label 1307	"breast tumor, luminal"
+label 1308	breast tumor
+label 1309	"breast tumor, luminal"
+label 1310	breast tumor
+label 1311	breast tumor
+label 1312	"breast tumor, luminal"
+label 1313	"breast tumor, normal like"
+label 1314	"breast tumor, luminal"
+label 1315	"breast tumor, luminal"
+label 1316	"breast tumor, normal like"
+label 1317	"breast tumor, basal"
+label 1318	breast tumor
+label 1319	"breast tumor, normal like"
+label 1320	"breast tumor, luminal"
+label 1321	breast tumor
+label 1322	"breast tumor, luminal"
+label 1323	"breast tumor, normal like"
+label 1324	"breast tumor, luminal"
+label 1325	"breast tumor, normal like"
+label 1326	breast tumor
+label 1327	"breast tumor, normal like"
+label 1328	"breast tumor, luminal"
+label 1329	"breast tumor, luminal"
+label 1330	"breast tumor, basal"
+label 1331	"breast tumor, luminal"
+label 1332	"breast tumor, basal"
+label 1333	"breast tumor, normal like"
+label 1334	"breast tumor, luminal"
+label 1335	breast tumor
+label 1336	"breast tumor, normal like"
+label 1337	"breast tumor, normal like"
+label 1338	"breast tumor, normal like"
+label 1339	"breast tumor, luminal"
+label 1340	"breast tumor, normal like"
+label 1341	"breast tumor, basal"
+label 1342	"breast tumor, basal"
+label 1343	"breast tumor, luminal"
+label 1344	"breast tumor, normal like"
+label 1345	"breast tumor, normal like"
+label 1346	"breast tumor, normal like"
+label 1347	"breast tumor, luminal"
+label 1348	"breast tumor, luminal"
+label 1349	breast tumor
+label 1350	"breast tumor, luminal"
+label 1351	"breast tumor, normal like"
+label 1352	"breast tumor, luminal"
+label 1353	"breast tumor, luminal"
+label 1354	breast tumor
+label 1355	"breast tumor, luminal"
+label 1356	"breast tumor, normal like"
+label 1357	"breast tumor, normal like"
+label 1358	"breast tumor, luminal"
+label 1359	"breast tumor, luminal"
+label 1360	"breast tumor, normal like"
+label 1361	"breast tumor, luminal"
+label 1362	"breast tumor, luminal"
+label 1363	"breast tumor, luminal"
+label 1364	"breast tumor, basal"
+label 1365	breast tumor
+label 1366	"breast tumor, normal like"
+label 1367	"breast tumor, basal"
+label 1368	"breast tumor, normal like"
+label 1369	"breast tumor, luminal"
+label 1370	"breast tumor, normal like"
+label 1371	breast tumor
+label 1372	"breast tumor, normal like"
+label 1373	"breast tumor, normal like"
+label 1374	breast tumor
+label 1375	"breast tumor, luminal"
+label 1376	"breast tumor, basal"
+label 1377	"breast tumor, normal like"
+label 1378	"breast tumor, luminal"
+label 1379	"breast tumor, luminal"
+label 1380	"breast tumor, luminal"
+label 1381	"breast tumor, luminal"
+label 1382	breast tumor
+label 1383	"breast tumor, luminal"
+label 1384	"breast tumor, luminal"
+label 1385	"breast tumor, normal like"
+label 1386	"breast tumor, normal like"
+label 1387	"breast tumor, basal"
+label 1388	"breast tumor, normal like"
+label 1389	"breast tumor, normal like"
+label 1390	breast tumor
+label 1391	"breast tumor, normal like"
+label 1392	"breast tumor, basal"
+label 1393	"breast tumor, luminal"
+label 1394	breast tumor
+label 1395	"breast tumor, luminal"
+label 1396	"breast tumor, basal"
+label 1397	"breast tumor, basal"
+label 1398	breast tumor
+label 1399	"breast tumor, basal"
+label 1400	"breast tumor, luminal"
+label 1401	"breast tumor, luminal"
+label 1402	"breast tumor, luminal"
+label 1403	"breast tumor, luminal"
+label 1404	"breast tumor, basal"
+label 1405	"breast tumor, basal"
+label 1406	breast tumor
+label 1407	breast tumor
+label 1408	breast tumor
+label 1409	breast tumor
+label 1410	"breast tumor, normal like"
+label 1411	"breast tumor, luminal"
+label 1412	breast tumor
+label 1413	"breast tumor, luminal"
+label 1414	breast tumor
+label 1415	breast tumor
+label 1416	"breast tumor, basal"
+label 1417	breast tumor
+label 1418	"breast tumor, basal"
+label 1419	"breast tumor, basal"
+label 1420	breast tumor
+label 1421	"breast tumor, luminal"
+label 1422	"breast tumor, normal like"
+label 1423	"breast tumor, luminal"
+label 1424	"breast tumor, normal like"
+label 1425	"breast tumor, luminal"
+label 1426	breast tumor
+label 1427	"breast tumor, luminal"
+label 1428	"breast tumor, luminal"
+label 1429	breast tumor
+label 1430	"breast tumor, basal"
+label 1431	"breast tumor, luminal"
+label 1432	breast tumor
+label 1433	response
+label 1434	response
+label 1435	response
+label 1436	response
+label 1437	response
+label 1438	response
+label 1439	breast tumor
+label 1440	breast tumor
+label 1441	breast tumor
+label 1442	breast tumor
+label 1443	breast tumor
+label 1444	breast tumor
+label 1445	breast tumor
+label 1446	breast tumor
+label 1447	breast tumor
+label 1448	breast tumor
+label 1449	breast tumor
+label 1450	breast tumor
+label 1451	breast tumor
+label 1452	breast tumor
+label 1453	breast tumor
+label 1454	breast tumor
+label 1455	breast tumor
+label 1456	breast tumor
+label 1457	breast tumor
+label 1458	breast tumor
+label 1459	breast tumor
+label 1460	breast tumor
+label 1461	breast tumor
+label 1462	breast tumor
+label 1463	breast tumor
+label 1464	breast tumor
+label 1465	breast tumor
+label 1466	breast tumor
+label 1467	breast tumor
+label 1468	breast tumor
+label 1469	breast tumor
+label 1470	breast tumor
+label 1471	breast tumor
+label 1472	breast tumor
+label 1473	breast tumor
+label 1474	breast tumor
+label 1475	breast tumor
+label 1476	breast tumor
+label 1477	breast tumor
+label 1478	breast tumor
+label 1479	breast tumor
+label 1480	breast tumor
+label 1481	breast tumor
+label 1482	breast tumor
+label 1483	breast tumor
+label 1484	breast tumor
+label 1485	breast tumor
+label 1486	breast tumor
+label 1487	breast tumor
+label 1488	breast tumor
+label 1489	breast tumor
+label 1490	breast tumor
+label 1491	breast tumor
+label 1492	breast tumor
+label 1493	breast tumor
+label 1494	breast tumor
+label 1495	breast tumor
+label 1496	breast tumor
+label 1497	breast tumor
+label 1498	breast tumor
+label 1499	breast tumor
+label 1500	breast tumor
+label 1501	breast tumor
+label 1502	breast tumor
+label 1503	breast tumor
+label 1504	breast tumor
+label 1505	breast tumor
+label 1506	breast tumor
+label 1507	breast tumor
+label 1508	breast tumor
+label 1509	breast tumor
+label 1510	breast tumor
+label 1511	breast tumor
+label 1512	breast tumor
+label 1513	breast tumor
+label 1514	breast tumor
+label 1515	breast tumor
+label 1516	breast tumor
+label 1517	breast tumor
+label 1518	breast tumor
+label 1519	breast tumor
+label 1520	breast tumor
+label 1521	breast tumor
+label 1522	breast tumor
+label 1523	breast tumor
+label 1524	breast tumor
+label 1525	breast tumor
+label 1526	breast tumor
+label 1527	breast tumor
+label 1528	breast tumor
+label 1529	breast tumor
+label 1530	breast tumor
+label 1531	breast tumor
+label 1532	breast tumor
+label 1533	breast tumor
+label 1534	breast tumor
+label 1535	breast tumor
+label 1536	breast tumor
+label 1537	breast tumor
+label 1538	breast tumor
+label 1539	breast tumor
+label 1540	breast tumor
+label 1541	breast tumor
+label 1542	breast tumor
+label 1543	breast tumor
+label 1544	breast tumor
+label 1545	breast tumor
+label 1546	breast tumor
+label 1547	breast tumor
+label 1548	breast tumor
+label 1549	breast tumor
+label 1550	breast tumor
+label 1551	breast tumor
+label 1552	breast tumor
+label 1553	breast tumor
+label 1554	breast tumor
+label 1555	breast tumor
+label 1556	breast tumor
+label 1557	breast tumor
+label 1558	breast tumor
+label 1559	breast tumor
+label 1560	breast tumor
+label 1561	breast tumor
+label 1562	breast tumor
+label 1563	breast tumor
+label 1564	breast tumor
+label 1565	breast tumor
+label 1566	breast tumor
+label 1567	breast tumor
+label 1568	breast tumor
+label 1569	breast tumor
+label 1570	breast tumor
+label 1571	breast tumor
+label 1572	breast tumor
+label 1573	breast tumor
+label 1574	breast tumor
+label 1575	breast tumor
+label 1576	breast tumor
+label 1577	breast tumor
+label 1578	breast tumor
+label 1579	breast tumor
+label 1580	breast tumor
+label 1581	breast tumor
+label 1582	breast tumor
+label 1583	breast tumor
+label 1584	breast tumor
+label 1585	breast tumor
+label 1586	breast tumor
+label 1587	breast tumor
+label 1588	breast tumor
+label 1589	breast tumor
+label 1590	breast tumor
+label 1591	breast tumor
+label 1592	breast tumor
+label 1593	breast tumor
+label 1594	breast tumor
+label 1595	breast tumor
+label 1596	breast tumor
+label 1597	breast tumor
+label 1598	breast tumor
+label 1599	breast tumor
+label 1600	breast tumor
+label 1601	breast tumor
+label 1602	breast tumor
+label 1603	breast tumor
+label 1604	breast tumor
+label 1605	breast tumor
+label 1606	breast tumor
+label 1607	breast tumor
+label 1608	breast tumor
+label 1609	breast tumor
+label 1610	breast tumor
+label 1611	breast tumor
+label 1612	breast tumor
+label 1613	breast tumor
+label 1614	breast tumor
+label 1615	breast tumor
+label 1616	breast tumor
+label 1617	breast tumor
+label 1618	breast tumor
+label 1619	breast tumor
+label 1620	breast tumor
+label 1621	breast tumor
+label 1622	breast tumor
+label 1623	breast tumor
+label 1624	breast tumor
+label 1625	breast tumor
+label 1626	breast tumor
+label 1627	breast tumor
+label 1628	breast tumor
+label 1629	breast tumor
+label 1630	breast tumor
+label 1631	breast tumor
+label 1632	breast tumor
+label 1633	breast tumor
+label 1634	breast tumor
+label 1635	breast tumor
+label 1636	breast tumor
+label 1637	breast tumor
+label 1638	breast tumor
+label 1639	breast tumor
+label 1640	breast tumor
+label 1641	breast tumor
+label 1642	breast tumor
+label 1643	breast tumor
+label 1644	breast tumor
+label 1645	breast tumor
+label 1646	breast tumor
+label 1647	breast tumor
+label 1648	breast tumor
+label 1649	breast tumor
+label 1650	breast tumor
+label 1651	breast tumor
+label 1652	breast tumor
+label 1653	breast tumor
+label 1654	breast tumor
+label 1655	breast tumor
+label 1656	breast tumor
+label 1657	breast tumor
+label 1658	breast tumor
+label 1659	breast tumor
+label 1660	breast tumor
+label 1661	breast tumor
+label 1662	breast tumor
+label 1663	breast tumor
+label 1664	breast tumor
+label 1665	breast tumor
+label 1666	breast tumor
+label 1667	breast tumor
+label 1668	breast tumor
+label 1669	breast tumor
+label 1670	breast tumor
+label 1671	breast tumor
+label 1672	breast tumor
+label 1673	breast tumor
+label 1674	breast tumor
+label 1675	breast tumor
+label 1676	breast tumor
+label 1677	breast tumor
+label 1678	breast tumor
+label 1679	breast tumor
+label 1680	breast tumor
+label 1681	breast tumor
+label 1682	breast tumor
+label 1683	breast tumor
+label 1684	breast tumor
+label 1685	breast tumor
+label 1686	breast tumor
+label 1687	breast tumor
+label 1688	promyelocytic leukemia
+label 1689	promyelocytic leukemia
+label 1690	promyelocytic leukemia
+label 1691	promyelocytic leukemia
+label 1692	promyelocytic leukemia
+label 1693	promyelocytic leukemia
+label 1694	pcos
+label 1695	pcos
+label 1696	pcos
+label 1697	pcos
+label 1698	pcos
+label 1699	pcos
+label 1700	pcos
+label 1701	pcos
+label 1702	pcos
+label 1703	renal clear cell carcinoma
+label 1704	renal clear cell carcinoma
+label 1705	dermatomyositis
+label 1706	dermatomyositis
+label 1707	dermatomyositis
+label 1708	dermatomyositis
+label 1709	dermatomyositis
+label 1710	renal clear cell carcinoma
+label 1711	renal clear cell carcinoma
+label 1712	renal clear cell carcinoma
+label 1713	renal clear cell carcinoma
+label 1714	duchenne muscular dystrophy
+label 1715	facioscapulohumeral muscular dystrophy
+label 1716	facioscapulohumeral muscular dystrophy
+label 1717	facioscapulohumeral muscular dystrophy
+label 1718	duchenne muscular dystrophy
+label 1719	facioscapulohumeral muscular dystrophy
+label 1720	duchenne muscular dystrophy
+label 1721	facioscapulohumeral muscular dystrophy
+label 1722	facioscapulohumeral muscular dystrophy
+label 1723	facioscapulohumeral muscular dystrophy
+label 1724	facioscapulohumeral muscular dystrophy
+label 1725	duchenne muscular dystrophy
+label 1726	duchenne muscular dystrophy
+label 1727	facioscapulohumeral muscular dystrophy
+label 1728	facioscapulohumeral muscular dystrophy
+label 1729	facioscapulohumeral muscular dystrophy
+label 1730	facioscapulohumeral muscular dystrophy
+label 1731	facioscapulohumeral muscular dystrophy
+label 1732	juvenile dermatomyositis
+label 1733	juvenile dermatomyositis
+label 1734	juvenile dermatomyositis
+label 1735	juvenile dermatomyositis
+label 1736	juvenile dermatomyositis
+label 1737	juvenile dermatomyositis
+label 1738	juvenile dermatomyositis
+label 1739	juvenile dermatomyositis
+label 1740	juvenile dermatomyositis
+label 1741	juvenile dermatomyositis
+label 1742	juvenile dermatomyositis
+label 1743	juvenile dermatomyositis
+label 1744	juvenile dermatomyositis
+label 1745	juvenile dermatomyositis
+label 1746	juvenile dermatomyositis
+label 1747	juvenile dermatomyositis
+label 1748	juvenile dermatomyositis
+label 1749	juvenile dermatomyositis
+label 1750	juvenile dermatomyositis
+label 1751	juvenile dermatomyositis
+label 1752	juvenile dermatomyositis
+label 1753	facioscapulohumeral muscular dystrophy
+label 1754	renal clear cell carcinoma
+label 1755	renal clear cell carcinoma
+label 1756	bipolar disorder
+label 1757	bipolar disorder
+label 1758	bipolar disorder
+label 1759	bipolar disorder
+label 1760	bipolar disorder
+label 1761	bipolar disorder
+label 1762	bipolar disorder
+label 1763	bipolar disorder
+label 1764	bipolar disorder
+label 1765	bipolar disorder
+label 1766	bipolar disorder
+label 1767	bipolar disorder
+label 1768	bipolar disorder
+label 1769	bipolar disorder
+label 1770	bipolar disorder
+label 1771	bipolar disorder
+label 1772	bipolar disorder
+label 1773	bipolar disorder
+label 1774	bipolar disorder
+label 1775	bipolar disorder
+label 1776	bipolar disorder
+label 1777	bipolar disorder
+label 1778	bipolar disorder
+label 1779	bipolar disorder
+label 1780	bipolar disorder
+label 1781	bipolar disorder
+label 1782	bipolar disorder
+label 1783	bipolar disorder
+label 1784	bipolar disorder
+label 1785	bipolar disorder
+label 1786	bipolar disorder
+label 1787	bipolar disorder
+label 1788	bipolar disorder
+label 1789	bipolar disorder
+label 1790	bipolar disorder
+label 1791	bipolar disorder
+label 1792	bipolar disorder
+label 1793	bipolar disorder
+label 1794	bipolar disorder
+label 1795	bipolar disorder
+label 1796	renal clear cell carcinoma
+label 1797	ebv infection
+label 1798	ebv infection
+label 1799	ebv infection
+label 1800	ebv infection
+label 1801	ebv infection
+label 1802	ebv infection
+label 1803	trauma
+label 1804	trauma
+label 1805	trauma
+label 1806	trauma
+label 1807	trauma
+label 1808	trauma
+label 1809	trauma
+label 1810	trauma
+label 1811	trauma
+label 1812	trauma
+label 1813	trauma
+label 1814	trauma
+label 1815	trauma
+label 1816	trauma
+label 1817	trauma
+label 1818	trauma
+label 1819	trauma
+label 1820	trauma
+label 1821	trauma
+label 1822	trauma
+label 1823	trauma
+label 1824	Ischemia
+label 1825	Ischemia
+label 1826	Ischemia
+label 1827	Ischemia
+label 1828	Ischemia
+label 1829	Ischemia
+label 1830	Ischemia
+label 1831	Ischemia
+label 1832	Ischemia
+label 1833	myocardial infarction
+label 1834	myocardial infarction
+label 1835	myocardial infarction
+label 1836	myocardial infarction
+label 1837	myocardial infarction
+label 1838	myocardial infarction
+label 1839	myocardial infarction
+label 1840	myocardial infarction
+label 1841	myocardial infarction
+label 1842	myocardial infarction
+label 1843	myocardial infarction
+label 1844	myocardial infarction
+label 1845	current smoker
+label 1846	current smoker
+label 1847	current smoker
+label 1848	current smoker
+label 1849	current smoker
+label 1850	current smoker
+label 1851	current smoker
+label 1852	current smoker
+label 1853	current smoker
+label 1854	current smoker
+label 1855	current smoker
+label 1856	current smoker
+label 1857	current smoker
+label 1858	current smoker
+label 1859	current smoker
+label 1860	current smoker
+label 1861	current smoker
+label 1862	current smoker
+label 1863	current smoker
+label 1864	current smoker
+label 1865	current smoker
+label 1866	current smoker
+label 1867	current smoker
+label 1868	current smoker
+label 1869	current smoker
+label 1870	current smoker
+label 1871	current smoker
+label 1872	current smoker
+label 1873	current smoker
+label 1874	current smoker
+label 1875	current smoker
+label 1876	current smoker
+label 1877	current smoker
+label 1878	current smoker
+label 1879	former smoker
+label 1880	former smoker
+label 1881	former smoker
+label 1882	former smoker
+label 1883	former smoker
+label 1884	former smoker
+label 1885	former smoker
+label 1886	former smoker
+label 1887	former smoker
+label 1888	former smoker
+label 1889	former smoker
+label 1890	former smoker
+label 1891	former smoker
+label 1892	former smoker
+label 1893	former smoker
+label 1894	former smoker
+label 1895	former smoker
+label 1896	former smoker
+label 1897	osteosarcoma
+label 1898	osteosarcoma
+label 1899	osteosarcoma
+label 1900	osteosarcoma
+label 1901	osteosarcoma
+label 1902	osteosarcoma
+label 1903	osteosarcoma
+label 1904	osteosarcoma
+label 1905	osteosarcoma
+label 1906	osteosarcoma
+label 1907	metabolic syndrome
+label 1908	metabolic syndrome
+label 1909	metabolic syndrome
+label 1910	metabolic syndrome
+label 1911	metabolic syndrome
+label 1912	metabolic syndrome
+label 1913	metabolic syndrome
+label 1914	metabolic syndrome
+label 1915	metabolic syndrome
+label 1916	metabolic syndrome
+label 1917	metabolic syndrome
+label 1918	metabolic syndrome
+label 1919	metabolic syndrome
+label 1920	metabolic syndrome
+label 1921	metabolic syndrome
+label 1922	metabolic syndrome
+label 1923	metabolic syndrome
+label 1924	acute myeloid leukemia
+label 1925	acute myeloid leukemia
+label 1926	metabolic syndrome
+label 1927	metabolic syndrome
+label 1928	metabolic syndrome
+label 1929	metabolic syndrome
+label 1930	metabolic syndrome
+label 1931	metabolic syndrome
+label 1932	metabolic syndrome
+label 1933	acute myeloid leukemia
+label 1934	acute myeloid leukemia
+label 1935	acute myeloid leukemia
+label 1936	acute myeloid leukemia
+label 1937	acute myeloid leukemia
+label 1938	acute myeloid leukemia
+label 1939	acute myeloid leukemia
+label 1940	acute myeloid leukemia
+label 1941	acute myeloid leukemia
+label 1942	acute myeloid leukemia
+label 1943	acute myeloid leukemia
+label 1944	acute myeloid leukemia
+label 1945	acute myeloid leukemia
+label 1946	acute myeloid leukemia
+label 1947	acute myeloid leukemia
+label 1948	acute myeloid leukemia
+label 1949	acute myeloid leukemia
+label 1950	acute myeloid leukemia
+label 1951	acute myeloid leukemia
+label 1952	acute myeloid leukemia
+label 1953	acute myeloid leukemia
+label 1954	acute myeloid leukemia
+label 1955	acute myeloid leukemia
+label 1956	acute myeloid leukemia
+label 1957	acute myeloid leukemia
+label 1958	acute myeloid leukemia
+label 1959	acute myeloid leukemia
+label 1960	acute myeloid leukemia
+label 1961	acute myeloid leukemia
+label 1962	acute myeloid leukemia
+label 1963	acute myeloid leukemia
+label 1964	acute myeloid leukemia
+label 1965	acute myeloid leukemia
+label 1966	acute myeloid leukemia
+label 1967	acute myeloid leukemia
+label 1968	acute myeloid leukemia
+label 1969	acute myeloid leukemia
+label 1970	acute myeloid leukemia
+label 1971	acute myeloid leukemia
+label 1972	acute myeloid leukemia
+label 1973	acute myeloid leukemia
+label 1974	acute myeloid leukemia
+label 1975	acute myeloid leukemia
+label 1976	acute myeloid leukemia
+label 1977	acute myeloid leukemia
+label 1978	acute myeloid leukemia
+label 1979	acute myeloid leukemia
+label 1980	acute myeloid leukemia
+label 1981	acute myeloid leukemia
+label 1982	acute myeloid leukemia
+label 1983	acute myeloid leukemia
+label 1984	acute myeloid leukemia
+label 1985	acute myeloid leukemia
+label 1986	acute myeloid leukemia
+label 1987	acute myeloid leukemia
+label 1988	acute myeloid leukemia
+label 1989	acute myeloid leukemia
+label 1990	acute myeloid leukemia
+label 1991	acute myeloid leukemia
+label 1992	acute myeloid leukemia
+label 1993	acute myeloid leukemia
+label 1994	acute myeloid leukemia
+label 1995	acute myeloid leukemia
+label 1996	acute myeloid leukemia
+label 1997	acute myeloid leukemia
+label 1998	acute myeloid leukemia
+label 1999	acute myeloid leukemia
+label 2000	acute myeloid leukemia
+label 2001	acute myeloid leukemia
+label 2002	acute myeloid leukemia
+label 2003	acute myeloid leukemia
+label 2004	acute myeloid leukemia
+label 2005	acute myeloid leukemia
+label 2006	acute myeloid leukemia
+label 2007	acute myeloid leukemia
+label 2008	acute myeloid leukemia
+label 2009	acute myeloid leukemia
+label 2010	acute myeloid leukemia
+label 2011	acute myeloid leukemia
+label 2012	acute myeloid leukemia
+label 2013	acute myeloid leukemia
+label 2014	acute myeloid leukemia
+label 2015	acute myeloid leukemia
+label 2016	acute myeloid leukemia
+label 2017	acute myeloid leukemia
+label 2018	acute myeloid leukemia
+label 2019	acute myeloid leukemia
+label 2020	acute myeloid leukemia
+label 2021	acute myeloid leukemia
+label 2022	acute myeloid leukemia
+label 2023	acute myeloid leukemia
+label 2024	acute myeloid leukemia
+label 2025	acute myeloid leukemia
+label 2026	acute myeloid leukemia
+label 2027	acute myeloid leukemia
+label 2028	acute myeloid leukemia
+label 2029	acute myeloid leukemia
+label 2030	acute myeloid leukemia
+label 2031	acute myeloid leukemia
+label 2032	acute myeloid leukemia
+label 2033	acute myeloid leukemia
+label 2034	acute myeloid leukemia
+label 2035	acute myeloid leukemia
+label 2036	acute myeloid leukemia
+label 2037	acute myeloid leukemia
+label 2038	acute myeloid leukemia
+label 2039	acute myeloid leukemia
+label 2040	acute myeloid leukemia
+label 2041	acute myeloid leukemia
+label 2042	acute myeloid leukemia
+label 2043	acute myeloid leukemia
+label 2044	acute myeloid leukemia
+label 2045	acute myeloid leukemia
+label 2046	acute myeloid leukemia
+label 2047	acute myeloid leukemia
+label 2048	acute myeloid leukemia
+label 2049	acute myeloid leukemia
+label 2050	acute myeloid leukemia
+label 2051	acute myeloid leukemia
+label 2052	acute myeloid leukemia
+label 2053	acute myeloid leukemia
+label 2054	acute myeloid leukemia
+label 2055	acute myeloid leukemia
+label 2056	acute myeloid leukemia
+label 2057	acute myeloid leukemia
+label 2058	acute myeloid leukemia
+label 2059	acute myeloid leukemia
+label 2060	acute myeloid leukemia
+label 2061	acute myeloid leukemia
+label 2062	acute myeloid leukemia
+label 2063	acute myeloid leukemia
+label 2064	acute myeloid leukemia
+label 2065	acute myeloid leukemia
+label 2066	acute myeloid leukemia
+label 2067	acute myeloid leukemia
+label 2068	acute myeloid leukemia
+label 2069	acute myeloid leukemia
+label 2070	acute myeloid leukemia
+label 2071	acute myeloid leukemia
+label 2072	acute myeloid leukemia
+label 2073	acute myeloid leukemia
+label 2074	acute myeloid leukemia
+label 2075	acute myeloid leukemia
+label 2076	acute myeloid leukemia
+label 2077	acute myeloid leukemia
+label 2078	acute myeloid leukemia
+label 2079	acute myeloid leukemia
+label 2080	acute myeloid leukemia
+label 2081	acute myeloid leukemia
+label 2082	acute myeloid leukemia
+label 2083	acute myeloid leukemia
+label 2084	acute myeloid leukemia
+label 2085	acute myeloid leukemia
+label 2086	acute myeloid leukemia
+label 2087	acute myeloid leukemia
+label 2088	acute myeloid leukemia
+label 2089	acute myeloid leukemia
+label 2090	acute myeloid leukemia
+label 2091	acute myeloid leukemia
+label 2092	acute myeloid leukemia
+label 2093	acute myeloid leukemia
+label 2094	acute myeloid leukemia
+label 2095	acute myeloid leukemia
+label 2096	acute myeloid leukemia
+label 2097	acute myeloid leukemia
+label 2098	acute myeloid leukemia
+label 2099	acute myeloid leukemia
+label 2100	acute myeloid leukemia
+label 2101	acute myeloid leukemia
+label 2102	acute myeloid leukemia
+label 2103	acute myeloid leukemia
+label 2104	acute myeloid leukemia
+label 2105	acute myeloid leukemia
+label 2106	acute myeloid leukemia
+label 2107	acute myeloid leukemia
+label 2108	acute myeloid leukemia
+label 2109	acute myeloid leukemia
+label 2110	acute myeloid leukemia
+label 2111	acute myeloid leukemia
+label 2112	acute myeloid leukemia
+label 2113	acute myeloid leukemia
+label 2114	acute myeloid leukemia
+label 2115	acute myeloid leukemia
+label 2116	acute myeloid leukemia
+label 2117	acute myeloid leukemia
+label 2118	acute myeloid leukemia
+label 2119	acute myeloid leukemia
+label 2120	acute myeloid leukemia
+label 2121	acute myeloid leukemia
+label 2122	acute myeloid leukemia
+label 2123	acute myeloid leukemia
+label 2124	acute myeloid leukemia
+label 2125	acute myeloid leukemia
+label 2126	acute myeloid leukemia
+label 2127	acute myeloid leukemia
+label 2128	acute myeloid leukemia
+label 2129	acute myeloid leukemia
+label 2130	acute myeloid leukemia
+label 2131	acute myeloid leukemia
+label 2132	acute myeloid leukemia
+label 2133	acute myeloid leukemia
+label 2134	acute myeloid leukemia
+label 2135	acute myeloid leukemia
+label 2136	acute myeloid leukemia
+label 2137	acute myeloid leukemia
+label 2138	acute myeloid leukemia
+label 2139	acute myeloid leukemia
+label 2140	acute myeloid leukemia
+label 2141	acute myeloid leukemia
+label 2142	acute myeloid leukemia
+label 2143	acute myeloid leukemia
+label 2144	acute myeloid leukemia
+label 2145	acute myeloid leukemia
+label 2146	acute myeloid leukemia
+label 2147	acute myeloid leukemia
+label 2148	acute myeloid leukemia
+label 2149	acute myeloid leukemia
+label 2150	acute myeloid leukemia
+label 2151	acute myeloid leukemia
+label 2152	acute myeloid leukemia
+label 2153	acute myeloid leukemia
+label 2154	acute myeloid leukemia
+label 2155	acute myeloid leukemia
+label 2156	acute myeloid leukemia
+label 2157	acute myeloid leukemia
+label 2158	acute myeloid leukemia
+label 2159	acute myeloid leukemia
+label 2160	acute myeloid leukemia
+label 2161	acute myeloid leukemia
+label 2162	acute myeloid leukemia
+label 2163	acute myeloid leukemia
+label 2164	acute myeloid leukemia
+label 2165	acute myeloid leukemia
+label 2166	acute myeloid leukemia
+label 2167	acute myeloid leukemia
+label 2168	acute myeloid leukemia
+label 2169	acute myeloid leukemia
+label 2170	acute myeloid leukemia
+label 2171	acute myeloid leukemia
+label 2172	acute myeloid leukemia
+label 2173	acute myeloid leukemia
+label 2174	acute myeloid leukemia
+label 2175	acute myeloid leukemia
+label 2176	acute myeloid leukemia
+label 2177	acute myeloid leukemia
+label 2178	acute myeloid leukemia
+label 2179	acute myeloid leukemia
+label 2180	acute myeloid leukemia
+label 2181	acute myeloid leukemia
+label 2182	acute myeloid leukemia
+label 2183	acute myeloid leukemia
+label 2184	acute myeloid leukemia
+label 2185	acute myeloid leukemia
+label 2186	acute myeloid leukemia
+label 2187	acute myeloid leukemia
+label 2188	acute myeloid leukemia
+label 2189	acute myeloid leukemia
+label 2190	acute myeloid leukemia
+label 2191	acute myeloid leukemia
+label 2192	acute myeloid leukemia
+label 2193	acute myeloid leukemia
+label 2194	acute myeloid leukemia
+label 2195	acute myeloid leukemia
+label 2196	acute myeloid leukemia
+label 2197	acute myeloid leukemia
+label 2198	acute myeloid leukemia
+label 2199	acute myeloid leukemia
+label 2200	acute myeloid leukemia
+label 2201	acute myeloid leukemia
+label 2202	acute myeloid leukemia
+label 2203	acute myeloid leukemia
+label 2204	acute myeloid leukemia
+label 2205	acute myeloid leukemia
+label 2206	acute myeloid leukemia
+label 2207	acute myeloid leukemia
+label 2208	acute myeloid leukemia
+label 2209	acute myeloid leukemia
+label 2210	acute myeloid leukemia
+label 2211	acute myeloid leukemia
+label 2212	acute myeloid leukemia
+label 2213	acute myeloid leukemia
+label 2214	acute myeloid leukemia
+label 2215	acute myeloid leukemia
+label 2216	acute myeloid leukemia
+label 2217	acute myeloid leukemia
+label 2218	acute myeloid leukemia
+label 2219	acute myeloid leukemia
+label 2220	acute myeloid leukemia
+label 2221	acute myeloid leukemia
+label 2222	acute myeloid leukemia
+label 2223	acute myeloid leukemia
+label 2224	alzheimer's disease
+label 2225	alzheimer's disease
+label 2226	alzheimer's disease
+label 2227	alzheimer's disease
+label 2228	alzheimer's disease
+label 2229	alzheimer's disease
+label 2230	alzheimer's disease
+label 2231	alzheimer's disease
+label 2232	alzheimer's disease
+label 2233	alzheimer's disease
+label 2234	alzheimer's disease
+label 2235	alzheimer's disease
+label 2236	alzheimer's disease
+label 2237	alzheimer's disease
+label 2238	alzheimer's disease
+label 2239	alzheimer's disease
+label 2240	alzheimer's disease
+label 2241	alzheimer's disease
+label 2242	alzheimer's disease
+label 2243	alzheimer's disease
+label 2244	alzheimer's disease
+label 2245	alzheimer's disease
+label 2246	"breast cancer cells, adenovirus expressing GFP"
+label 2247	"breast cancer cells, adenovirus expressing GFP"
+label 2248	"breast cancer cells, adenovirus expressing GFP"
+label 2249	"breast cancer cells, adenovirus expressing GFP"
+label 2250	"breast cancer cells, adenovirus expressing GFP"
+label 2251	"breast cancer cells, adenovirus expressing GFP"
+label 2252	"breast cancer cells, adenovirus expressing GFP"
+label 2253	"breast cancer cells, adenovirus expressing GFP"
+label 2254	"breast cancer cells, adenovirus expressing GFP"
+label 2255	"breast cancer cells, adenovirus expressing GFP"
+label 2256	UV treated
+label 2257	UV treated
+label 2258	UV treated
+label 2259	colorectal cancer
+label 2260	colorectal cancer
+label 2261	colorectal cancer
+label 2262	colorectal cancer
+label 2263	colorectal cancer
+label 2264	colorectal cancer
+label 2265	barrett's esophagus
+label 2266	barrett's esophagus
+label 2267	barrett's esophagus
+label 2268	barrett's esophagus
+label 2269	barrett's esophagus
+label 2270	barrett's esophagus
+label 2271	barrett's esophagus
+label 2272	barrett's esophagus
+label 2273	adenocarcinoma
+label 2274	adenocarcinoma
+label 2275	adenocarcinoma
+label 2276	adenocarcinoma
+label 2277	adenocarcinoma
+label 2278	adenocarcinoma
+label 2279	adenocarcinoma
+label 2280	adenocarcinoma
+label 2281	mitochondrial disorder
+label 2282	mitochondrial disorder
+label 2283	mitochondrial disorder
+label 2284	mitochondrial disorder
+label 2285	mitochondrial disorder
+label 2286	mitochondrial disorder
+label 2287	mitochondrial disorder
+label 2288	mitochondrial disorder
+label 2289	mitochondrial disorder
+label 2290	mitochondrial disorder
+label 2291	mitochondrial disorder
+label 2292	mitochondrial disorder
+label 2293	mitochondrial disorder
+label 2294	mitochondrial disorder
+label 2295	mitochondrial disorder
+label 2296	"breast cancer, inflammatory"
+label 2297	"breast cancer, inflammatory"
+label 2298	"breast cancer, inflammatory"
+label 2299	"breast cancer, inflammatory"
+label 2300	"breast cancer, inflammatory"
+label 2301	"breast cancer, inflammatory"
+label 2302	"breast cancer, inflammatory"
+label 2303	"breast cancer, inflammatory"
+label 2304	"breast cancer, inflammatory"
+label 2305	"breast cancer, inflammatory"
+label 2306	"breast cancer, inflammatory"
+label 2307	"breast cancer, inflammatory"
+label 2308	"breast cancer, inflammatory"
+label 2309	"breast cancer, inflammatory"
+label 2310	"breast cancer, inflammatory"
+label 2311	"breast cancer, inflammatory"
+label 2312	"breast cancer, inflammatory"
+label 2313	"breast cancer, inflammatory"
+label 2314	"breast cancer, inflammatory"
+label 2315	"breast cancer, inflammatory"
+label 2316	"breast cancer, inflammatory"
+label 2317	"breast cancer, inflammatory"
+label 2318	"breast cancer, inflammatory"
+label 2319	"breast cancer, inflammatory"
+label 2320	"breast cancer, inflammatory"
+label 2321	"breast cancer, inflammatory"
+label 2322	"breast cancer, inflammatory"
+label 2323	"breast cancer, inflammatory"
+label 2324	"breast cancer, inflammatory"
+label 2325	"breast cancer, inflammatory"
+label 2326	"breast cancer, inflammatory"
+label 2327	"breast cancer, inflammatory"
+label 2328	"breast cancer, inflammatory"
+label 2329	"breast cancer, inflammatory"
+label 2330	"breast cancer, inflammatory"
+label 2331	"breast cancer, inflammatory"
+label 2332	"breast cancer, inflammatory"
+label 2333	"breast cancer, inflammatory"
+label 2334	"breast cancer, inflammatory"
+label 2335	"breast cancer, inflammatory"
+label 2336	"breast cancer, inflammatory"
+label 2337	"breast cancer, inflammatory"
+label 2338	"breast cancer, inflammatory"
+label 2339	"breast cancer, inflammatory"
+label 2340	"breast cancer, inflammatory"
+label 2341	"breast cancer, inflammatory"
+label 2342	"breast cancer, inflammatory"
+label 2343	"breast cancer, inflammatory"
+label 2344	"breast cancer, inflammatory"
+label 2345	"T-cell lymphoblastic lymphoma, T-LL"
+label 2346	"T-cell lymphoblastic lymphoma, T-LL"
+label 2347	"T-cell lymphoblastic lymphoma, T-LL"
+label 2348	"T-cell lymphoblastic lymphoma, T-LL"
+label 2349	"T-cell lymphoblastic lymphoma, T-LL"
+label 2350	"T-cell lymphoblastic lymphoma, T-LL"
+label 2351	"T-cell lymphoblastic lymphoma, T-LL"
+label 2352	"T-cell lymphoblastic lymphoma, T-LL"
+label 2353	"T-cell lymphoblastic lymphoma, T-LL"
+label 2354	"T-cell acute lymphoblastic leukemia, T-ALL"
+label 2355	"T-cell acute lymphoblastic leukemia, T-ALL"
+label 2356	"T-cell acute lymphoblastic leukemia, T-ALL"
+label 2357	"T-cell acute lymphoblastic leukemia, T-ALL"
+label 2358	"T-cell acute lymphoblastic leukemia, T-ALL"
+label 2359	"T-cell acute lymphoblastic leukemia, T-ALL"
+label 2360	"T-cell acute lymphoblastic leukemia, T-ALL"
+label 2361	"T-cell acute lymphoblastic leukemia, T-ALL"
+label 2362	"T-cell acute lymphoblastic leukemia, T-ALL"
+label 2363	"T-cell acute lymphoblastic leukemia, T-ALL"
+label 2364	"B-cell acute lymphoblastic leukemia, B-ALL"
+label 2365	"B-cell acute lymphoblastic leukemia, B-ALL"
+label 2366	"B-cell acute lymphoblastic leukemia, B-ALL"
+label 2367	"B-cell acute lymphoblastic leukemia, B-ALL"
+label 2368	"B-cell acute lymphoblastic leukemia, B-ALL"
+label 2369	"B-cell acute lymphoblastic leukemia, B-ALL"
+label 2370	"B-cell acute lymphoblastic leukemia, B-ALL"
+label 2371	"B-cell acute lymphoblastic leukemia, B-ALL"
+label 2372	"B-cell acute lymphoblastic leukemia, B-ALL"
+label 2373	"B-cell acute lymphoblastic leukemia, B-ALL"
+label 2374	pcos
+label 2375	pcos
+label 2376	pcos
+label 2377	pcos
+label 2378	pcos
+label 2379	emphysema
+label 2380	emphysema
+label 2381	emphysema
+label 2382	emphysema
+label 2383	emphysema
+label 2384	emphysema
+label 2385	emphysema
+label 2386	emphysema
+label 2387	emphysema
+label 2388	emphysema
+label 2389	emphysema
+label 2390	emphysema
+label 2391	emphysema
+label 2392	emphysema
+label 2393	emphysema
+label 2394	emphysema
+label 2395	emphysema
+label 2396	emphysema
+label 2397	emphysema
+label 2398	emphysema
+label 2399	emphysema
+label 2400	emphysema
+label 2401	emphysema
+label 2402	emphysema
+label 2403	emphysema
+label 2404	emphysema
+label 2405	emphysema
+label 2406	emphysema
+label 2407	emphysema
+label 2408	emphysema
+label 2409	"grade 2, primary hnscc"
+label 2410	"grade 2, primary hnscc"
+label 2411	"grade 2, primary hnscc"
+label 2412	"grade 2, primary hnscc"
+label 2413	"grade 2, primary hnscc"
+label 2414	"grade 2, primary hnscc"
+label 2415	"grade 2, primary hnscc"
+label 2416	"grade 2, primary hnscc"
+label 2417	"acute promyelocytic leukemia, apl"
+label 2418	"acute promyelocytic leukemia, apl"
+label 2419	"acute promyelocytic leukemia, apl"
+label 2420	"acute promyelocytic leukemia, apl"
+label 2421	"acute promyelocytic leukemia, apl"
+label 2422	"acute promyelocytic leukemia, apl"
+label 2423	"acute promyelocytic leukemia, apl"
+label 2424	"acute promyelocytic leukemia, apl"
+label 2425	"acute promyelocytic leukemia, apl"
+label 2426	"acute promyelocytic leukemia, apl"
+label 2427	aml
+label 2428	aml
+label 2429	aml
+label 2430	aml
+label 2431	acute monoblastic/monocytic leukemia
+label 2432	acute monoblastic/monocytic leukemia
+label 2433	acute monoblastic/monocytic leukemia
+label 2434	acute monoblastic/monocytic leukemia
+label 2435	acute monoblastic/monocytic leukemia
+label 2436	acute monoblastic/monocytic leukemia
+label 2437	acute monoblastic/monocytic leukemia
+label 2438	aml
+label 2439	aml
+label 2440	aml
+label 2441	aml
+label 2442	aml
+label 2443	aml
+label 2444	acute myelomonocytic leukemia
+label 2445	acute myelomonocytic leukemia
+label 2446	acute myelomonocytic leukemia
+label 2447	aml
+label 2448	aml
+label 2449	aml
+label 2450	acute erythroid leukemia
+label 2451	aml
+label 2452	aml
+label 2453	acute myelomonocytic leukemia
+label 2454	aml
+label 2455	acute myelomonocytic leukemia
+label 2456	aml
+label 2457	aml
+label 2458	aml
+label 2459	aml
+label 2460	ischemic cardiomyopathy
+label 2461	nonischemic cardiomyopathy
+label 2462	ischemic cardiomyopathy
+label 2463	nonischemic cardiomyopathy
+label 2464	ischemic cardiomyopathy
+label 2465	nonischemic cardiomyopathy
+label 2466	nonischemic cardiomyopathy
+label 2467	nonischemic cardiomyopathy
+label 2468	nonischemic cardiomyopathy
+label 2469	nonischemic cardiomyopathy
+label 2470	nonischemic cardiomyopathy
+label 2471	nonischemic cardiomyopathy
+label 2472	nonischemic cardiomyopathy
+label 2473	nonischemic cardiomyopathy
+label 2474	nonischemic cardiomyopathy
+label 2475	nonischemic cardiomyopathy
+label 2476	ischemic cardiomyopathy
+label 2477	nonischemic cardiomyopathy
+label 2478	ischemic cardiomyopathy
+label 2479	ischemic cardiomyopathy
+label 2480	ischemic cardiomyopathy
+label 2481	ischemic cardiomyopathy
+label 2482	ischemic cardiomyopathy
+label 2483	ischemic cardiomyopathy
+label 2484	nonischemic cardiomyopathy
+label 2485	acute rejection
+label 2486	acute rejection
+label 2487	acute rejection
+label 2488	acute rejection
+label 2489	acute rejection
+label 2490	acute rejection
+label 2491	acute rejection
+label 2492	inflammatory myopathy
+label 2493	myositis
+label 2494	dermatomyositis
+label 2495	dermatomyositis
+label 2496	polymyositis
+label 2497	polymyositis
+label 2498	dermatomyositis
+label 2499	myositis
+label 2500	inflammatory myopathy
+label 2501	myositis
+label 2502	dermatomyositis
+label 2503	myositis
+label 2504	myositis
+label 2505	"response, dominant negative"
+label 2506	"response, dominant negative"
+label 2507	"response, dominant negative"
+label 2508	"response, dominant negative"
+label 2509	"response, dominant negative"
+label 2510	"response, dominant negative"
+label 2511	uterine fibroid
+label 2512	uterine fibroid
+label 2513	uterine fibroid
+label 2514	uterine fibroid
+label 2515	uterine fibroid
+label 2516	uterine fibroid
+label 2517	uterine fibroid
+label 2518	uterine fibroid
+label 2519	uterine fibroid
+label 2520	uterine fibroid
+label 2521	uterine fibroid
+label 2522	uterine fibroid
+label 2523	uterine fibroid
+label 2524	uterine fibroid
+label 2525	uterine fibroid
+label 2526	uterine fibroid
+label 2527	uterine fibroid
+label 2528	uterine fibroid
+label 2529	uterine fibroid
+label 2530	uterine fibroid
+label 2531	uterine fibroid
+label 2532	uterine fibroid
+label 2533	"pituitary adenoma, non-functioning"
+label 2534	"pituitary adenoma, ACTH-secreting"
+label 2535	"pituitary adenoma, GH-secreting"
+label 2536	"pituitary adenoma, PRL-secreting"
+label 2537	atopic mild asthmatics
+label 2538	atopic mild asthmatics
+label 2539	atopic mild asthmatics
+label 2540	atopic mild asthmatics
+label 2541	atopic mild asthmatics
+label 2542	atopic mild asthmatics
+label 2543	atopic mild asthmatics
+label 2544	atopic mild asthmatics
+label 2545	atopic mild asthmatics
+label 2546	atopic mild asthmatics
+label 2547	atopic mild asthmatics
+label 2548	atopic mild asthmatics
+label 2549	atopic mild asthmatics
+label 2550	non-atopic mild asthma
+label 2551	non-atopic mild asthma
+label 2552	atopic severe asthma
+label 2553	atopic severe asthma
+label 2554	atopic severe asthma
+label 2555	atopic severe asthma
+label 2556	atopic severe asthma
+label 2557	"cardiovascular disease, obesity"
+label 2558	lung cancer
+label 2559	lung cancer
+label 2560	lung cancer
+label 2561	lung cancer
+label 2562	lung cancer
+label 2563	lung cancer
+label 2564	lung cancer
+label 2565	lung cancer
+label 2566	lung cancer
+label 2567	"cardiovascular disease, obesity"
+label 2568	lung cancer
+label 2569	lung cancer
+label 2570	lung cancer
+label 2571	lung cancer
+label 2572	lung cancer
+label 2573	lung cancer
+label 2574	lung cancer
+label 2575	lung cancer
+label 2576	lung cancer
+label 2577	"cardiovascular disease, obesity"
+label 2578	"cardiovascular disease, obesity"
+label 2579	"cardiovascular disease, obesity"
+label 2580	"cardiovascular disease, obesity"
+label 2581	"cardiovascular disease, obesity"
+label 2582	"cardiovascular disease, obesity"
+label 2583	"cardiovascular disease, obesity"
+label 2584	"cardiovascular disease, obesity"
+label 2585	"cardiovascular disease, obesity"
+label 2586	"cardiovascular disease, obesity"
+label 2587	"cardiovascular disease, obesity"
+label 2588	"cardiovascular disease, obesity"
+label 2589	"cardiovascular disease, obesity"
+label 2590	"cardiovascular disease, obesity"
+label 2591	"cardiovascular disease, obesity"
+label 2592	"cardiovascular disease, obesity"
+label 2593	"cardiovascular disease, obesity"
+label 2594	"cardiovascular disease, obesity"
+label 2595	"cardiovascular disease, obesity"
+label 2596	"cardiovascular disease, obesity"
+label 2597	"cardiovascular disease, obesity"
+label 2598	"cardiovascular disease, obesity"
+label 2599	breast cancer
+label 2600	breast cancer
+label 2601	breast cancer
+label 2602	breast cancer
+label 2603	breast cancer
+label 2604	breast cancer
+label 2605	breast cancer
+label 2606	breast cancer
+label 2607	breast cancer
+label 2608	breast cancer
+label 2609	breast cancer
+label 2610	breast cancer
+label 2611	breast cancer
+label 2612	breast cancer
+label 2613	breast cancer
+label 2614	breast cancer
+label 2615	breast cancer
+label 2616	breast cancer
+label 2617	atrial fibrillation
+label 2618	atrial fibrillation
+label 2619	atrial fibrillation
+label 2620	atrial fibrillation
+label 2621	atrial fibrillation
+label 2622	atrial fibrillation
+label 2623	atrial fibrillation
+label 2624	atrial fibrillation
+label 2625	atrial fibrillation
+label 2626	atrial fibrillation
+label 2627	squamous cell carcinoma
+label 2628	squamous cell carcinoma
+label 2629	squamous cell carcinoma
+label 2630	squamous cell carcinoma
+label 2631	squamous cell carcinoma
+label 2632	squamous cell carcinoma
+label 2633	squamous cell carcinoma
+label 2634	squamous cell carcinoma
+label 2635	squamous cell carcinoma
+label 2636	squamous cell carcinoma
+label 2637	squamous cell carcinoma
+label 2638	squamous cell carcinoma
+label 2639	squamous cell carcinoma
+label 2640	squamous cell carcinoma
+label 2641	squamous cell carcinoma
+label 2642	squamous cell carcinoma
+label 2643	squamous cell carcinoma
+label 2644	squamous cell carcinoma
+label 2645	squamous cell carcinoma
+label 2646	squamous cell carcinoma
+label 2647	squamous cell carcinoma
+label 2648	squamous cell carcinoma
+label 2649	squamous cell carcinoma
+label 2650	squamous cell carcinoma
+label 2651	squamous cell carcinoma
+label 2652	squamous cell carcinoma
+label 2653	squamous cell carcinoma
+label 2654	"acute lymphoblastic leukemia, chemotherapy response"
+label 2655	"acute lymphoblastic leukemia, chemotherapy response"
+label 2656	"pulmonary disease, cystic fibrosis"
+label 2657	"pulmonary disease, cystic fibrosis"
+label 2658	"pulmonary disease, cystic fibrosis"
+label 2659	"pulmonary disease, cystic fibrosis"
+label 2660	"pulmonary disease, cystic fibrosis"
+label 2661	"pulmonary disease, cystic fibrosis"
+label 2662	"pulmonary disease, cystic fibrosis"
+label 2663	"pulmonary disease, cystic fibrosis"
+label 2664	"pulmonary disease, cystic fibrosis"
+label 2665	uterated prostate cancer
+label 2666	prostate cancer
+label 2667	prostate cancer
+label 2668	prostate cancer
+label 2669	prostate cancer
+label 2670	prostate cancer
+label 2671	prostate cancer
+label 2672	prostate cancer
+label 2673	prostate cancer
+label 2674	prostate cancer
+label 2675	prostate cancer
+label 2676	prostate cancer
+label 2677	prostate cancer
+label 2678	prostate cancer
+label 2679	prostate cancer
+label 2680	prostate cancer
+label 2681	prostate cancer
+label 2682	prostate cancer
+label 2683	prostate cancer
+label 2684	prostate cancer
+label 2685	ulcerative colitis
+label 2686	irritable bowel syndrome
+label 2687	irritable bowel syndrome
+label 2688	irritable bowel syndrome
+label 2689	irritable bowel syndrome
+label 2690	irritable bowel syndrome
+label 2691	ulcerative colitis
+label 2692	ulcerative colitis
+label 2693	glioblastoma
+label 2694	glioblastoma
+label 2695	glioblastoma
+label 2696	glioblastoma
+label 2697	glioblastoma
+label 2698	glioblastoma
+label 2699	glioblastoma
+label 2700	glioblastoma
+label 2701	glioblastoma
+label 2702	glioblastoma
+label 2703	glioblastoma
+label 2704	glioblastoma
+label 2705	glioblastoma
+label 2706	glioblastoma
+label 2707	glioblastoma
+label 2708	glioblastoma
+label 2709	glioblastoma
+label 2710	glioblastoma
+label 2711	atopic severe asthma
+label 2712	atopic severe asthma
+label 2713	atopic severe asthma
+label 2714	atopic severe asthma
+label 2715	atopic severe asthma
+label 2716	atopic severe asthma
+label 2717	atopic severe asthma
+label 2718	atopic severe asthma
+label 2719	atopic severe asthma
+label 2720	atopic severe asthma
+label 2721	atopic severe asthma
+label 2722	atopic severe asthma
+label 2723	atopic severe asthma
+label 2724	atopic severe asthma
+label 2725	atopic severe asthma
+label 2726	atopic severe asthma
+label 2727	atopic severe asthma
+label 2728	atopic severe asthma
+label 2729	atopic severe asthma
+label 2730	atopic severe asthma
+label 2731	atopic severe asthma
+label 2732	atopic severe asthma
+label 2733	atopic severe asthma
+label 2734	atopic severe asthma
+label 2735	atopic severe asthma
+label 2736	atopic severe asthma
+label 2737	atopic severe asthma
+label 2738	atopic severe asthma
+label 2739	atopic severe asthma
+label 2740	atopic severe asthma
+label 2741	atopic severe asthma
+label 2742	atopic severe asthma
+label 2743	atopic severe asthma
+label 2744	atopic severe asthma
+label 2745	atopic severe asthma
+label 2746	atopic severe asthma
+label 2747	atopic severe asthma
+label 2748	atopic severe asthma
+label 2749	atopic severe asthma
+label 2750	atopic severe asthma
+label 2751	atopic severe asthma
+label 2752	atopic severe asthma
+label 2753	atopic severe asthma
+label 2754	atopic severe asthma
+label 2755	colon cancer
+label 2756	colon cancer
+label 2757	colon cancer
+label 2758	colon cancer
+label 2759	colon cancer
+label 2760	pterygium
+label 2761	pterygium
+label 2762	pterygium
+label 2763	pterygium
+label 2764	pterygium
+label 2765	pterygium
+label 2766	pterygium
+label 2767	pterygium
+label 2768	periodontitis
+label 2769	periodontitis
+label 2770	periodontitis
+label 2771	periodontitis
+label 2772	periodontitis
+label 2773	periodontitis
+label 2774	periodontitis
+label 2775	periodontitis
+label 2776	periodontitis
+label 2777	"brain tumor, glioblastoma"
+label 2778	"brain tumor, glioblastoma"
+label 2779	"brain tumor, glioblastoma"
+label 2780	breast cancer
+label 2781	breast cancer
+label 2782	breast cancer
+label 2783	breast cancer
+label 2784	breast cancer
+label 2785	breast cancer
+label 2786	breast cancer
+label 2787	breast cancer
+label 2788	breast cancer
+label 2789	breast cancer
+label 2790	breast cancer
+label 2791	breast cancer
+label 2792	breast cancer
+label 2793	breast cancer
+label 2794	breast cancer
+label 2795	breast cancer
+label 2796	breast cancer
+label 2797	breast cancer
+label 2798	breast cancer
+label 2799	breast cancer
+label 2800	breast cancer
+label 2801	breast cancer
+label 2802	breast cancer
+label 2803	breast cancer
+label 2804	breast cancer
+label 2805	breast cancer
+label 2806	breast cancer
+label 2807	breast cancer
+label 2808	breast cancer
+label 2809	breast cancer
+label 2810	breast cancer
+label 2811	breast cancer
+label 2812	breast cancer
+label 2813	breast cancer
+label 2814	breast cancer
+label 2815	breast cancer
+label 2816	breast cancer
+label 2817	breast cancer
+label 2818	breast cancer
+label 2819	breast cancer
+label 2820	breast cancer
+label 2821	breast cancer
+label 2822	breast cancer
+label 2823	breast cancer
+label 2824	breast cancer
+label 2825	breast cancer
+label 2826	breast cancer
+label 2827	breast cancer
+label 2828	breast cancer
+label 2829	breast cancer
+label 2830	breast cancer
+label 2831	breast cancer
+label 2832	breast cancer
+label 2833	breast cancer
+label 2834	breast cancer
+label 2835	breast cancer
+label 2836	breast cancer
+label 2837	breast cancer
+label 2838	breast cancer
+label 2839	breast cancer
+label 2840	breast cancer
+label 2841	breast cancer
+label 2842	breast cancer
+label 2843	breast cancer
+label 2844	breast cancer
+label 2845	breast cancer
+label 2846	breast cancer
+label 2847	breast cancer
+label 2848	breast cancer
+label 2849	breast cancer
+label 2850	breast cancer
+label 2851	breast cancer
+label 2852	breast cancer
+label 2853	breast cancer
+label 2854	breast cancer
+label 2855	breast cancer
+label 2856	breast cancer
+label 2857	breast cancer
+label 2858	breast cancer
+label 2859	breast cancer
+label 2860	breast cancer
+label 2861	breast cancer
+label 2862	breast cancer
+label 2863	breast cancer
+label 2864	breast cancer
+label 2865	breast cancer
+label 2866	breast cancer
+label 2867	breast cancer
+label 2868	breast cancer
+label 2869	breast cancer
+label 2870	breast cancer
+label 2871	breast cancer
+label 2872	breast cancer
+label 2873	breast cancer
+label 2874	breast cancer
+label 2875	breast cancer
+label 2876	breast cancer
+label 2877	breast cancer
+label 2878	breast cancer
+label 2879	breast cancer
+label 2880	breast cancer
+label 2881	breast cancer
+label 2882	breast cancer
+label 2883	breast cancer
+label 2884	breast cancer
+label 2885	breast cancer
+label 2886	breast cancer
+label 2887	breast cancer
+label 2888	breast cancer
+label 2889	breast cancer
+label 2890	breast cancer
+label 2891	breast cancer
+label 2892	breast cancer
+label 2893	breast cancer
+label 2894	breast cancer
+label 2895	breast cancer
+label 2896	breast cancer
+label 2897	breast cancer
+label 2898	breast cancer
+label 2899	breast cancer
+label 2900	breast cancer
+label 2901	hlrcc
+label 2902	hlrcc
+label 2903	uterine fibroid
+label 2904	uterine fibroid
+label 2905	uterine fibroid
+label 2906	uterine fibroid
+label 2907	uterine fibroid
+label 2908	uterine fibroid
+label 2909	uterine fibroid
+label 2910	colorectal adenocarcinoma
+label 2911	colorectal adenocarcinoma
+label 2912	colorectal adenocarcinoma
+label 2913	colorectal adenocarcinoma
+label 2914	colorectal adenocarcinoma
+label 2915	colorectal adenocarcinoma
+label 2916	colorectal adenocarcinoma
+label 2917	colorectal adenocarcinoma
+label 2918	colorectal adenocarcinoma
+label 2919	colorectal adenocarcinoma
+label 2920	colorectal adenocarcinoma
+label 2921	colorectal adenocarcinoma
+label 2922	colorectal adenocarcinoma
+label 2923	colorectal adenocarcinoma
+label 2924	colorectal adenocarcinoma
+label 2925	colorectal adenocarcinoma
+label 2926	colorectal adenocarcinoma
+label 2927	colorectal adenocarcinoma
+label 2928	adenovirus expressing GFP
+label 2929	adenovirus expressing GFP
+label 2930	adenovirus expressing GFP
+label 2931	adenovirus expressing GFP
+label 2932	adenovirus expressing GFP
+label 2933	adenovirus expressing GFP
+label 2934	adenovirus expressing GFP
+label 2935	adenovirus expressing GFP
+label 2936	"carcinoma in situ, bladder tumor"
+label 2937	bladder tumor
+label 2938	"carcinoma in situ, bladder tumor"
+label 2939	bladder tumor
+label 2940	"carcinoma in situ, bladder tumor"
+label 2941	bladder tumor
+label 2942	"carcinoma in situ, bladder tumor"
+label 2943	"carcinoma in situ, bladder tumor"
+label 2944	bladder tumor
+label 2945	"t3b, bladder tumor"
+label 2946	"carcinoma in situ, bladder tumor"
+label 2947	t4b
+label 2948	"t4b, bladder tumor"
+label 2949	"t3a, bladder tumor"
+label 2950	bladder tumor
+label 2951	"carcinoma in situ, bladder tumor"
+label 2952	bladder tumor
+label 2953	bladder tumor
+label 2954	"carcinoma in situ, bladder tumor"
+label 2955	bladder tumor
+label 2956	"t4a, bladder tumor"
+label 2957	bladder tumor
+label 2958	"t3a, bladder tumor"
+label 2959	"t3b, bladder tumor"
+label 2960	"t4b, bladder tumor"
+label 2961	"carcinoma in situ, bladder tumor"
+label 2962	"t4b, bladder tumor"
+label 2963	bladder tumor
+label 2964	bladder tumor
+label 2965	"t3b, bladder tumor"
+label 2966	bladder tumor
+label 2967	bladder tumor
+label 2968	"t3b, bladder tumor"
+label 2969	"carcinoma in situ, bladder tumor"
+label 2970	"carcinoma in situ, bladder tumor"
+label 2971	"carcinoma in situ, bladder tumor"
+label 2972	bladder tumor
+label 2973	bladder tumor
+label 2974	"t4a, bladder tumor"
+label 2975	bladder tumor
+label 2976	"carcinoma in situ, bladder tumor"
+label 2977	carcinoma in situ
+label 2978	carcinoma in situ
+label 2979	carcinoma in situ
+label 2980	carcinoma in situ
+label 2981	carcinoma in situ
+label 2982	germ cell tumor
+label 2983	germ cell tumor
+label 2984	germ cell tumor
+label 2985	germ cell tumor
+label 2986	germ cell tumor
+label 2987	germ cell tumor
+label 2988	germ cell tumor
+label 2989	germ cell tumor
+label 2990	germ cell tumor
+label 2991	germ cell tumor
+label 2992	germ cell tumor
+label 2993	germ cell tumor
+label 2994	germ cell tumor
+label 2995	germ cell tumor
+label 2996	germ cell tumor
+label 2997	germ cell tumor
+label 2998	germ cell tumor
+label 2999	germ cell tumor
+label 3000	germ cell tumor
+label 3001	germ cell tumor
+label 3002	germ cell tumor
+label 3003	germ cell tumor
+label 3004	germ cell tumor
+label 3005	germ cell tumor
+label 3006	germ cell tumor
+label 3007	germ cell tumor
+label 3008	germ cell tumor
+label 3009	germ cell tumor
+label 3010	germ cell tumor
+label 3011	germ cell tumor
+label 3012	germ cell tumor
+label 3013	germ cell tumor
+label 3014	germ cell tumor
+label 3015	germ cell tumor
+label 3016	germ cell tumor
+label 3017	germ cell tumor
+label 3018	germ cell tumor
+label 3019	germ cell tumor
+label 3020	germ cell tumor
+label 3021	germ cell tumor
+label 3022	germ cell tumor
+label 3023	germ cell tumor
+label 3024	germ cell tumor
+label 3025	germ cell tumor
+label 3026	germ cell tumor
+label 3027	germ cell tumor
+label 3028	germ cell tumor
+label 3029	germ cell tumor
+label 3030	germ cell tumor
+label 3031	germ cell tumor
+label 3032	germ cell tumor
+label 3033	germ cell tumor
+label 3034	germ cell tumor
+label 3035	germ cell tumor
+label 3036	germ cell tumor
+label 3037	germ cell tumor
+label 3038	germ cell tumor
+label 3039	germ cell tumor
+label 3040	germ cell tumor
+label 3041	germ cell tumor
+label 3042	germ cell tumor
+label 3043	germ cell tumor
+label 3044	germ cell tumor
+label 3045	germ cell tumor
+label 3046	germ cell tumor
+label 3047	germ cell tumor
+label 3048	germ cell tumor
+label 3049	germ cell tumor
+label 3050	germ cell tumor
+label 3051	germ cell tumor
+label 3052	germ cell tumor
+label 3053	germ cell tumor
+label 3054	germ cell tumor
+label 3055	germ cell tumor
+label 3056	germ cell tumor
+label 3057	germ cell tumor
+label 3058	germ cell tumor
+label 3059	germ cell tumor
+label 3060	germ cell tumor
+label 3061	germ cell tumor
+label 3062	germ cell tumor
+label 3063	germ cell tumor
+label 3064	germ cell tumor
+label 3065	germ cell tumor
+label 3066	germ cell tumor
+label 3067	germ cell tumor
+label 3068	germ cell tumor
+label 3069	germ cell tumor
+label 3070	germ cell tumor
+label 3071	germ cell tumor
+label 3072	germ cell tumor
+label 3073	germ cell tumor
+label 3074	germ cell tumor
+label 3075	germ cell tumor
+label 3076	germ cell tumor
+label 3077	germ cell tumor
+label 3078	germ cell tumor
+label 3079	germ cell tumor
+label 3080	germ cell tumor
+label 3081	germ cell tumor
+label 3082	germ cell tumor
+label 3083	becker muscular dystrophy
+label 3084	amyotrophic lateral sclerosis
+label 3085	amyotrophic lateral sclerosis
+label 3086	amyotrophic lateral sclerosis
+label 3087	amyotrophic lateral sclerosis
+label 3088	amyotrophic lateral sclerosis
+label 3089	amyotrophic lateral sclerosis
+label 3090	amyotrophic lateral sclerosis
+label 3091	amyotrophic lateral sclerosis
+label 3092	amyotrophic lateral sclerosis
+label 3093	dysferlinopathy
+label 3094	dysferlinopathy
+label 3095	dysferlinopathy
+label 3096	dysferlinopathy
+label 3097	dysferlinopathy
+label 3098	becker muscular dystrophy
+label 3099	becker muscular dystrophy
+label 3100	becker muscular dystrophy
+label 3101	becker muscular dystrophy
+label 3102	calpainopathy
+label 3103	calpainopathy
+label 3104	calpainopathy
+label 3105	calpainopathy
+label 3106	calpainopathy
+label 3107	calpainopathy
+label 3108	calpainopathy
+label 3109	calpainopathy
+label 3110	calpainopathy
+label 3111	duchenne muscular dystrophy
+label 3112	duchenne muscular dystrophy
+label 3113	duchenne muscular dystrophy
+label 3114	duchenne muscular dystrophy
+label 3115	duchenne muscular dystrophy
+label 3116	dysferlinopathy
+label 3117	dysferlinopathy
+label 3118	dysferlinopathy
+label 3119	dysferlinopathy
+label 3120	dysferlinopathy
+label 3121	Emery-Dreifuss muscular dystrophy
+label 3122	Emery-Dreifuss muscular dystrophy
+label 3123	Emery-Dreifuss muscular dystrophy
+label 3124	Emery-Dreifuss muscular dystrophy
+label 3125	Emery-Dreifuss muscular dystrophy
+label 3126	Emery-Dreifuss muscular dystrophy
+label 3127	Emery-Dreifuss muscular dystrophy
+label 3128	Emery-Dreifuss muscular dystrophy
+label 3129	 limb-girdle muscular dystrophy type 2I
+label 3130	 limb-girdle muscular dystrophy type 2I
+label 3131	 limb-girdle muscular dystrophy type 2I
+label 3132	 limb-girdle muscular dystrophy type 2I
+label 3133	 limb-girdle muscular dystrophy type 2I
+label 3134	 limb-girdle muscular dystrophy type 2I
+label 3135	 limb-girdle muscular dystrophy type 2I
+label 3136	calpainopathy
+label 3137	acute quadriplegic myopathy
+label 3138	acute quadriplegic myopathy
+label 3139	acute quadriplegic myopathy
+label 3140	acute quadriplegic myopathy
+label 3141	acute quadriplegic myopathy
+label 3142	hereditary spastic paraplegia
+label 3143	hereditary spastic paraplegia
+label 3144	hereditary spastic paraplegia
+label 3145	hereditary spastic paraplegia
+label 3146	cockayne syndrome
+label 3147	cockayne syndrome
+label 3148	cockayne syndrome
+label 3149	cockayne syndrome
+label 3150	cockayne syndrome
+label 3151	cockayne syndrome
+label 3152	cockayne syndrome
+label 3153	cockayne syndrome
+label 3154	breast tumor
+label 3155	breast tumor
+label 3156	breast tumor
+label 3157	breast tumor
+label 3158	breast tumor
+label 3159	breast tumor
+label 3160	breast tumor
+label 3161	breast tumor
+label 3162	breast tumor
+label 3163	breast tumor
+label 3164	breast tumor
+label 3165	breast tumor
+label 3166	breast tumor
+label 3167	breast tumor
+label 3168	breast tumor
+label 3169	breast tumor
+label 3170	breast tumor
+label 3171	breast tumor
+label 3172	breast tumor
+label 3173	breast tumor
+label 3174	breast tumor
+label 3175	breast tumor
+label 3176	breast tumor
+label 3177	breast tumor
+label 3178	breast tumor
+label 3179	breast tumor
+label 3180	breast tumor
+label 3181	breast tumor
+label 3182	breast tumor
+label 3183	breast tumor
+label 3184	breast tumor
+label 3185	breast tumor
+label 3186	breast tumor
+label 3187	breast tumor
+label 3188	breast tumor
+label 3189	breast tumor
+label 3190	breast tumor
+label 3191	breast tumor
+label 3192	breast tumor
+label 3193	breast tumor
+label 3194	breast tumor
+label 3195	breast tumor
+label 3196	breast tumor
+label 3197	breast tumor
+label 3198	breast tumor
+label 3199	breast tumor
+label 3200	breast tumor
+label 3201	breast tumor
+label 3202	breast tumor
+label 3203	breast tumor
+label 3204	breast tumor
+label 3205	breast tumor
+label 3206	breast tumor
+label 3207	breast tumor
+label 3208	breast tumor
+label 3209	breast tumor
+label 3210	breast tumor
+label 3211	breast tumor
+label 3212	breast tumor
+label 3213	breast tumor
+label 3214	breast tumor
+label 3215	breast tumor
+label 3216	breast tumor
+label 3217	breast tumor
+label 3218	breast tumor
+label 3219	breast tumor
+label 3220	breast tumor
+label 3221	breast tumor
+label 3222	breast tumor
+label 3223	breast tumor
+label 3224	breast tumor
+label 3225	breast tumor
+label 3226	breast tumor
+label 3227	breast tumor
+label 3228	breast tumor
+label 3229	breast tumor
+label 3230	breast tumor
+label 3231	breast tumor
+label 3232	breast tumor
+label 3233	breast tumor
+label 3234	breast tumor
+label 3235	breast tumor
+label 3236	breast tumor
+label 3237	breast tumor
+label 3238	breast tumor
+label 3239	breast tumor
+label 3240	breast tumor
+label 3241	breast tumor
+label 3242	breast tumor
+label 3243	breast tumor
+label 3244	breast tumor
+label 3245	breast tumor
+label 3246	breast tumor
+label 3247	breast tumor
+label 3248	breast tumor
+label 3249	breast tumor
+label 3250	breast tumor
+label 3251	breast tumor
+label 3252	breast tumor
+label 3253	breast tumor
+label 3254	breast tumor
+label 3255	breast tumor
+label 3256	breast tumor
+label 3257	breast tumor
+label 3258	breast tumor
+label 3259	breast tumor
+label 3260	breast tumor
+label 3261	breast tumor
+label 3262	breast tumor
+label 3263	breast tumor
+label 3264	breast tumor
+label 3265	breast tumor
+label 3266	breast tumor
+label 3267	breast tumor
+label 3268	breast tumor
+label 3269	breast tumor
+label 3270	breast tumor
+label 3271	breast tumor
+label 3272	breast tumor
+label 3273	breast tumor
+label 3274	breast tumor
+label 3275	breast tumor
+label 3276	breast tumor
+label 3277	breast tumor
+label 3278	breast tumor
+label 3279	breast tumor
+label 3280	breast tumor
+label 3281	breast tumor
+label 3282	breast tumor
+label 3283	breast tumor
+label 3284	breast tumor
+label 3285	breast tumor
+label 3286	breast tumor
+label 3287	breast tumor
+label 3288	breast tumor
+label 3289	breast tumor
+label 3290	breast tumor
+label 3291	breast tumor
+label 3292	breast tumor
+label 3293	breast tumor
+label 3294	breast tumor
+label 3295	breast tumor
+label 3296	breast tumor
+label 3297	breast tumor
+label 3298	breast tumor
+label 3299	breast tumor
+label 3300	breast tumor
+label 3301	breast tumor
+label 3302	breast tumor
+label 3303	breast tumor
+label 3304	breast tumor
+label 3305	breast tumor
+label 3306	breast tumor
+label 3307	breast tumor
+label 3308	breast tumor
+label 3309	breast tumor
+label 3310	breast tumor
+label 3311	breast tumor
+label 3312	breast tumor
+label 3313	breast tumor
+label 3314	breast tumor
+label 3315	breast tumor
+label 3316	breast tumor
+label 3317	breast tumor
+label 3318	breast tumor
+label 3319	breast tumor
+label 3320	breast tumor
+label 3321	breast tumor
+label 3322	breast tumor
+label 3323	breast tumor
+label 3324	breast tumor
+label 3325	breast tumor
+label 3326	breast tumor
+label 3327	breast tumor
+label 3328	breast tumor
+label 3329	breast tumor
+label 3330	breast tumor
+label 3331	breast tumor
+label 3332	breast tumor
+label 3333	breast tumor
+label 3334	breast tumor
+label 3335	breast tumor
+label 3336	breast tumor
+label 3337	breast tumor
+label 3338	breast tumor
+label 3339	breast tumor
+label 3340	breast tumor
+label 3341	breast tumor
+label 3342	breast tumor
+label 3343	breast tumor
+label 3344	breast tumor
+label 3345	breast tumor
+label 3346	breast tumor
+label 3347	breast tumor
+label 3348	breast tumor
+label 3349	breast tumor
+label 3350	breast tumor
+label 3351	breast tumor
+label 3352	breast tumor
+label 3353	breast tumor
+label 3354	breast tumor
+label 3355	breast tumor
+label 3356	breast tumor
+label 3357	breast tumor
+label 3358	breast tumor
+label 3359	breast tumor
+label 3360	breast tumor
+label 3361	breast tumor
+label 3362	breast tumor
+label 3363	breast tumor
+label 3364	breast tumor
+label 3365	breast tumor
+label 3366	breast tumor
+label 3367	breast tumor
+label 3368	breast tumor
+label 3369	breast tumor
+label 3370	breast tumor
+label 3371	breast tumor
+label 3372	breast tumor
+label 3373	breast tumor
+label 3374	breast tumor
+label 3375	breast tumor
+label 3376	breast tumor
+label 3377	breast tumor
+label 3378	breast tumor
+label 3379	breast tumor
+label 3380	breast tumor
+label 3381	breast tumor
+label 3382	breast tumor
+label 3383	breast tumor
+label 3384	breast tumor
+label 3385	breast tumor
+label 3386	breast tumor
+label 3387	breast tumor
+label 3388	breast tumor
+label 3389	breast tumor
+label 3390	breast tumor
+label 3391	breast tumor
+label 3392	breast tumor
+label 3393	breast tumor
+label 3394	breast tumor
+label 3395	breast tumor
+label 3396	breast tumor
+label 3397	breast tumor
+label 3398	breast tumor
+label 3399	breast tumor
+label 3400	breast tumor
+label 3401	breast tumor
+label 3402	breast tumor
+label 3403	breast tumor
+label 3404	breast tumor
+label 3405	oral squamous cell carcinoma
+label 3406	oral squamous cell carcinoma
+label 3407	oral squamous cell carcinoma
+label 3408	oral squamous cell carcinoma
+label 3409	oral squamous cell carcinoma
+label 3410	oral squamous cell carcinoma
+label 3411	oral squamous cell carcinoma
+label 3412	oral squamous cell carcinoma
+label 3413	oral squamous cell carcinoma
+label 3414	oral squamous cell carcinoma
+label 3415	oral squamous cell carcinoma
+label 3416	oral squamous cell carcinoma
+label 3417	oral squamous cell carcinoma
+label 3418	oral squamous cell carcinoma
+label 3419	oral squamous cell carcinoma
+label 3420	oral squamous cell carcinoma
+label 3421	"cardiomyopathy, calcifications"
+label 3422	"cardiomyopathy, calcifications"
+label 3423	"cardiomyopathy, calcifications"
+label 3424	"cardiomyopathy, calcifications"
+label 3425	"cardiomyopathy, calcifications"
+label 3426	cardiomyopathy
+label 3427	cardiomyopathy
+label 3428	cardiomyopathy
+label 3429	cardiomyopathy
+label 3430	cardiomyopathy
+label 3431	cardiomyopathy
+label 3432	cardiomyopathy
+label 3433	prostate cancer
+label 3434	prostate cancer
+label 3435	prostate cancer
+label 3436	prostate cancer
+label 3437	prostate cancer
+label 3438	prostate cancer
+label 3439	prostate cancer
+label 3440	prostate cancer
+label 3441	Huntington's disease
+label 3442	Huntington's disease
+label 3443	Huntington's disease
+label 3444	Huntington's disease
+label 3445	Huntington's disease
+label 3446	Huntington's disease
+label 3447	Huntington's disease
+label 3448	Huntington's disease
+label 3449	Huntington's disease
+label 3450	Huntington's disease
+label 3451	Huntington's disease
+label 3452	Huntington's disease
+label 3453	Huntington's disease
+label 3454	Huntington's disease
+label 3455	Huntington's disease
+label 3456	Huntington's disease
+label 3457	Huntington's disease
+label 3458	Huntington's disease
+label 3459	Huntington's disease
+label 3460	Huntington's disease
+label 3461	Huntington's disease
+label 3462	Huntington's disease
+label 3463	Huntington's disease
+label 3464	Huntington's disease
+label 3465	Huntington's disease
+label 3466	Huntington's disease
+label 3467	Huntington's disease
+label 3468	Huntington's disease
+label 3469	Huntington's disease
+label 3470	Huntington's disease
+label 3471	Huntington's disease
+label 3472	Huntington's disease
+label 3473	Huntington's disease
+label 3474	Huntington's disease
+label 3475	Huntington's disease
+label 3476	Huntington's disease
+label 3477	Huntington's disease
+label 3478	Huntington's disease
+label 3479	Huntington's disease
+label 3480	Huntington's disease
+label 3481	Huntington's disease
+label 3482	Huntington's disease
+label 3483	Huntington's disease
+label 3484	Huntington's disease
+label 3485	Huntington's disease
+label 3486	Huntington's disease
+label 3487	Huntington's disease
+label 3488	Huntington's disease
+label 3489	Huntington's disease
+label 3490	Huntington's disease
+label 3491	Huntington's disease
+label 3492	Huntington's disease
+label 3493	Huntington's disease
+label 3494	Huntington's disease
+label 3495	Huntington's disease
+label 3496	Huntington's disease
+label 3497	Huntington's disease
+label 3498	Huntington's disease
+label 3499	Huntington's disease
+label 3500	Huntington's disease
+label 3501	Huntington's disease
+label 3502	Huntington's disease
+label 3503	Huntington's disease
+label 3504	Huntington's disease
+label 3505	Huntington's disease
+label 3506	Huntington's disease
+label 3507	Huntington's disease
+label 3508	Huntington's disease
+label 3509	Huntington's disease
+label 3510	Huntington's disease
+label 3511	Huntington's disease
+label 3512	Huntington's disease
+label 3513	Huntington's disease
+label 3514	Huntington's disease
+label 3515	Huntington's disease
+label 3516	Huntington's disease
+label 3517	Huntington's disease
+label 3518	Huntington's disease
+label 3519	Huntington's disease
+label 3520	Huntington's disease
+label 3521	Huntington's disease
+label 3522	Huntington's disease
+label 3523	Huntington's disease
+label 3524	Huntington's disease
+label 3525	Huntington's disease
+label 3526	Huntington's disease
+label 3527	Huntington's disease
+label 3528	Huntington's disease
+label 3529	Huntington's disease
+label 3530	Huntington's disease
+label 3531	Huntington's disease
+label 3532	Huntington's disease
+label 3533	Huntington's disease
+label 3534	Huntington's disease
+label 3535	Huntington's disease
+label 3536	Huntington's disease
+label 3537	Huntington's disease
+label 3538	Huntington's disease
+label 3539	Huntington's disease
+label 3540	Huntington's disease
+label 3541	Huntington's disease
+label 3542	Huntington's disease
+label 3543	Huntington's disease
+label 3544	Huntington's disease
+label 3545	Huntington's disease
+label 3546	Huntington's disease
+label 3547	Huntington's disease
+label 3548	Huntington's disease
+label 3549	Huntington's disease
+label 3550	Huntington's disease
+label 3551	Huntington's disease
+label 3552	Huntington's disease
+label 3553	Huntington's disease
+label 3554	progeria syndrome
+label 3555	progeria syndrome
+label 3556	progeria syndrome
+label 3557	progeria syndrome
+label 3558	progeria syndrome
+label 3559	progeria syndrome
+label 3560	progeria syndrome
+label 3561	progeria syndrome
+label 3562	progeria syndrome
+label 3563	bone marrow relapse
+label 3564	bone marrow relapse
+label 3565	bone marrow relapse
+label 3566	bone marrow relapse
+label 3567	bone marrow relapse
+label 3568	bone marrow relapse
+label 3569	bone marrow relapse
+label 3570	bone marrow relapse
+label 3571	bone marrow relapse
+label 3572	bone marrow relapse
+label 3573	bone marrow relapse
+label 3574	bone marrow relapse
+label 3575	bone marrow relapse
+label 3576	bone marrow relapse
+label 3577	bone marrow relapse
+label 3578	bone marrow relapse
+label 3579	bone marrow relapse
+label 3580	bone marrow relapse
+label 3581	bone marrow relapse
+label 3582	bone marrow relapse
+label 3583	bone marrow relapse
+label 3584	bone marrow relapse
+label 3585	bone marrow relapse
+label 3586	bone marrow relapse
+label 3587	bone marrow relapse
+label 3588	bone marrow relapse
+label 3589	bone marrow relapse
+label 3590	bone marrow relapse
+label 3591	bone marrow relapse
+label 3592	bone marrow relapse
+label 3593	bone marrow relapse
+label 3594	bone marrow relapse
+label 3595	bone marrow relapse
+label 3596	bone marrow relapse
+label 3597	bone marrow relapse
+label 3598	bone marrow relapse
+label 3599	bone marrow relapse
+label 3600	bone marrow relapse
+label 3601	bone marrow relapse
+label 3602	bone marrow relapse
+label 3603	bone marrow relapse
+label 3604	bone marrow relapse
+label 3605	bone marrow relapse
+label 3606	bone marrow relapse
+label 3607	bone marrow relapse
+label 3608	bone marrow relapse
+label 3609	bone marrow relapse
+label 3610	bone marrow relapse
+label 3611	bone marrow relapse
+label 3612	bone marrow relapse
+label 3613	bone marrow relapse
+label 3614	bone marrow relapse
+label 3615	bone marrow relapse
+label 3616	bone marrow relapse
+label 3617	bone marrow relapse
+label 3618	bone marrow relapse
+label 3619	bone marrow relapse
+label 3620	bone marrow relapse
+label 3621	bone marrow relapse
+label 3622	bone marrow relapse
+label 3623	bone marrow relapse
+label 3624	bone marrow relapse
+label 3625	bone marrow relapse
+label 3626	bone marrow relapse
+label 3627	bone marrow relapse
+label 3628	bone marrow relapse
+label 3629	bone marrow relapse
+label 3630	bone marrow relapse
+label 3631	bone marrow relapse
+label 3632	bone marrow relapse
+label 3633	bone marrow relapse
+label 3634	bone marrow relapse
+label 3635	bone marrow relapse
+label 3636	bone marrow relapse
+label 3637	bone marrow relapse
+label 3638	bone marrow relapse
+label 3639	bone marrow relapse
+label 3640	bone marrow relapse
+label 3641	bone marrow relapse
+label 3642	bone marrow relapse
+label 3643	bone marrow relapse
+label 3644	bone marrow relapse
+label 3645	bone marrow relapse
+label 3646	bone marrow relapse
+label 3647	bone marrow relapse
+label 3648	bone marrow relapse
+label 3649	bone marrow relapse
+label 3650	bone marrow relapse
+label 3651	bone marrow relapse
+label 3652	bone marrow relapse
+label 3653	bone marrow relapse
+label 3654	bone marrow relapse
+label 3655	bone marrow relapse
+label 3656	bone marrow relapse
+label 3657	bone marrow relapse
+label 3658	bone marrow relapse
+label 3659	bone marrow relapse
+label 3660	bone marrow relapse
+label 3661	bone marrow relapse
+label 3662	bone marrow relapse
+label 3663	bone marrow relapse
+label 3664	bone marrow relapse
+label 3665	bone marrow relapse
+label 3666	bone marrow relapse
+label 3667	bone marrow relapse
+label 3668	bone marrow relapse
+label 3669	bone marrow relapse
+label 3670	bone marrow relapse
+label 3671	bone marrow relapse
+label 3672	bone marrow relapse
+label 3673	bone marrow relapse
+label 3674	bone marrow relapse
+label 3675	bone marrow relapse
+label 3676	cololrectal tumor
+label 3677	cololrectal tumor
+label 3678	cololrectal tumor
+label 3679	cololrectal tumor
+label 3680	cololrectal tumor
+label 3681	cololrectal tumor
+label 3682	cololrectal tumor
+label 3683	cololrectal tumor
+label 3684	cololrectal tumor
+label 3685	cololrectal tumor
+label 3686	cololrectal tumor
+label 3687	cololrectal tumor
+label 3688	cololrectal tumor
+label 3689	cololrectal tumor
+label 3690	cololrectal tumor
+label 3691	cololrectal tumor
+label 3692	cololrectal tumor
+label 3693	cololrectal tumor
+label 3694	cololrectal tumor
+label 3695	cololrectal tumor
+label 3696	cololrectal tumor
+label 3697	cololrectal tumor
+label 3698	cololrectal tumor
+label 3699	cololrectal tumor
+label 3700	cololrectal tumor
+label 3701	cololrectal tumor
+label 3702	cololrectal tumor
+label 3703	cololrectal tumor
+label 3704	cololrectal tumor
+label 3705	cololrectal tumor
+label 3706	cololrectal tumor
+label 3707	cololrectal tumor
+label 3708	cololrectal tumor
+label 3709	cololrectal tumor
+label 3710	cololrectal tumor
+label 3711	cololrectal tumor
+label 3712	cololrectal tumor
+label 3713	colorectal adenocarcinoma
+label 3714	colorectal adenocarcinoma
+label 3715	colorectal adenocarcinoma
+label 3716	colorectal adenocarcinoma
+label 3717	colorectal adenocarcinoma
+label 3718	colorectal adenocarcinoma
+label 3719	colorectal adenocarcinoma
+label 3720	colorectal adenocarcinoma
+label 3721	colorectal adenocarcinoma
+label 3722	"lung cancer, cytotoxicity"
+label 3723	"lung cancer, cytotoxicity"
+label 3724	"lung cancer, cytotoxicity"
+label 3725	"lung cancer, cytotoxicity"
+label 3726	"lung cancer, cytotoxicity"
+label 3727	squamous cell cancer
+label 3728	small cell cancer
+label 3729	small cell cancer
+label 3730	small cell cancer
+label 3731	small cell cancer
+label 3732	"lung cancer, cytotoxicity"
+label 3733	"lung cancer, cytotoxicity"
+label 3734	squamous cell cancer
+label 3735	squamous cell cancer
+label 3736	"lung cancer, cytotoxicity"
+label 3737	small cell cancer
+label 3738	squamous cell cancer
+label 3739	small cell cancer
+label 3740	small cell cancer
+label 3741	small cell cancer
+label 3742	"lung cancer, cytotoxicity"
+label 3743	squamous cell cancer
+label 3744	"lung cancer, cytotoxicity"
+label 3745	squamous cell cancer
+label 3746	squamous cell cancer
+label 3747	squamous cell cancer
+label 3748	squamous cell cancer
+label 3749	small cell cancer
+label 3750	small cell cancer
+label 3751	lymphoma
+label 3752	lymphoma
+label 3753	lymphoma
+label 3754	lymphoma
+label 3755	lymphoma
+label 3756	"acute lymphoblastic leukemia, chemotherapy response"
+label 3757	"acute lymphoblastic leukemia, chemotherapy response"
+label 3758	"acute lymphoblastic leukemia, chemotherapy response"
+label 3759	"acute lymphoblastic leukemia, chemotherapy response"
+label 3760	"acute lymphoblastic leukemia, chemotherapy response"
+label 3761	"acute lymphoblastic leukemia, chemotherapy response"
+label 3762	acute lymphoblastic leukemia
+label 3763	acute lymphoblastic leukemia
+label 3764	acute lymphoblastic leukemia
+label 3765	acute lymphoblastic leukemia
+label 3766	acute lymphoblastic leukemia
+label 3767	"acute lymphoblastic leukemia, chemotherapy response"
+label 3768	brain tumor
+label 3769	brain tumor
+label 3770	brain tumor
+label 3771	brain tumor
+label 3772	brain tumor
+label 3773	brain tumor
+label 3774	brain tumor
+label 3775	brain tumor
+label 3776	brain tumor
+label 3777	brain tumor
+label 3778	"acute lymphoblastic leukemia, chemotherapy response"
+label 3779	brain tumor
+label 3780	brain tumor
+label 3781	brain tumor
+label 3782	brain tumor
+label 3783	brain tumor
+label 3784	brain tumor
+label 3785	brain tumor
+label 3786	brain tumor
+label 3787	brain tumor
+label 3788	brain tumor
+label 3789	"acute lymphoblastic leukemia, chemotherapy response"
+label 3790	brain tumor
+label 3791	brain tumor
+label 3792	brain tumor
+label 3793	brain tumor
+label 3794	brain tumor
+label 3795	brain tumor
+label 3796	brain tumor
+label 3797	brain tumor
+label 3798	brain tumor
+label 3799	brain tumor
+label 3800	acute lymphoblastic leukemia
+label 3801	brain tumor
+label 3802	brain tumor
+label 3803	brain tumor
+label 3804	brain tumor
+label 3805	brain tumor
+label 3806	brain tumor
+label 3807	brain tumor
+label 3808	brain tumor
+label 3809	brain tumor
+label 3810	brain tumor
+label 3811	"acute lymphoblastic leukemia, chemotherapy response"
+label 3812	brain tumor
+label 3813	brain tumor
+label 3814	brain tumor
+label 3815	brain tumor
+label 3816	brain tumor
+label 3817	brain tumor
+label 3818	brain tumor
+label 3819	brain tumor
+label 3820	brain tumor
+label 3821	brain tumor
+label 3822	"acute lymphoblastic leukemia, chemotherapy response"
+label 3823	brain tumor
+label 3824	brain tumor
+label 3825	brain tumor
+label 3826	brain tumor
+label 3827	brain tumor
+label 3828	brain tumor
+label 3829	brain tumor
+label 3830	brain tumor
+label 3831	brain tumor
+label 3832	brain tumor
+label 3833	acute lymphoblastic leukemia
+label 3834	brain tumor
+label 3835	brain tumor
+label 3836	brain tumor
+label 3837	brain tumor
+label 3838	brain tumor
+label 3839	brain tumor
+label 3840	brain tumor
+label 3841	brain tumor
+label 3842	brain tumor
+label 3843	brain tumor
+label 3844	"acute lymphoblastic leukemia, chemotherapy response"
+label 3845	brain tumor
+label 3846	brain tumor
+label 3847	brain tumor
+label 3848	brain tumor
+label 3849	brain tumor
+label 3850	brain tumor
+label 3851	brain tumor
+label 3852	brain tumor
+label 3853	brain tumor
+label 3854	brain tumor
+label 3855	"acute lymphoblastic leukemia, chemotherapy response"
+label 3856	brain tumor
+label 3857	brain tumor
+label 3858	brain tumor
+label 3859	brain tumor
+label 3860	brain tumor
+label 3861	brain tumor
+label 3862	brain tumor
+label 3863	brain tumor
+label 3864	brain tumor
+label 3865	brain tumor
+label 3866	"acute lymphoblastic leukemia, chemotherapy response"
+label 3867	brain tumor
+label 3868	brain tumor
+label 3869	brain tumor
+label 3870	brain tumor
+label 3871	brain tumor
+label 3872	brain tumor
+label 3873	brain tumor
+label 3874	brain tumor
+label 3875	brain tumor
+label 3876	brain tumor
+label 3877	"acute lymphoblastic leukemia, chemotherapy response"
+label 3878	"acute lymphoblastic leukemia, chemotherapy response"
+label 3879	"acute lymphoblastic leukemia, chemotherapy response"
+label 3880	"acute lymphoblastic leukemia, chemotherapy response"
+label 3881	"acute lymphoblastic leukemia, chemotherapy response"
+label 3882	"acute lymphoblastic leukemia, chemotherapy response"
+label 3883	"acute lymphoblastic leukemia, chemotherapy response"
+label 3884	"acute lymphoblastic leukemia, chemotherapy response"
+label 3885	"acute lymphoblastic leukemia, chemotherapy response"
+label 3886	"acute lymphoblastic leukemia, chemotherapy response"
+label 3887	"acute lymphoblastic leukemia, chemotherapy response"
+label 3888	"acute lymphoblastic leukemia, chemotherapy response"
+label 3889	"acute lymphoblastic leukemia, chemotherapy response"
+label 3890	"acute lymphoblastic leukemia, chemotherapy response"
+label 3891	"acute lymphoblastic leukemia, chemotherapy response"
+label 3892	acute lymphoblastic leukemia
+label 3893	acute lymphoblastic leukemia
+label 3894	"acute lymphoblastic leukemia, chemotherapy response"
+label 3895	"acute lymphoblastic leukemia, chemotherapy response"
+label 3896	"acute lymphoblastic leukemia, chemotherapy response"
+label 3897	"acute lymphoblastic leukemia, chemotherapy response"
+label 3898	"acute lymphoblastic leukemia, chemotherapy response"
+label 3899	"acute lymphoblastic leukemia, chemotherapy response"
+label 3900	"acute lymphoblastic leukemia, chemotherapy response"
+label 3901	acute lymphoblastic leukemia
+label 3902	acute lymphoblastic leukemia
+label 3903	acute lymphoblastic leukemia
+label 3904	"acute lymphoblastic leukemia, chemotherapy response"
+label 3905	"acute lymphoblastic leukemia, chemotherapy response"
+label 3906	"acute lymphoblastic leukemia, chemotherapy response"
+label 3907	"acute lymphoblastic leukemia, chemotherapy response"
+label 3908	"acute lymphoblastic leukemia, chemotherapy response"
+label 3909	"acute lymphoblastic leukemia, chemotherapy response"
+label 3910	"acute lymphoblastic leukemia, chemotherapy response"
+label 3911	acute lymphoblastic leukemia
+label 3912	"acute lymphoblastic leukemia, chemotherapy response"
+label 3913	acute lymphoblastic leukemia
+label 3914	"acute lymphoblastic leukemia, chemotherapy response"
+label 3915	"acute lymphoblastic leukemia, chemotherapy response"
+label 3916	"acute lymphoblastic leukemia, chemotherapy response"
+label 3917	"acute lymphoblastic leukemia, chemotherapy response"
+label 3918	"acute lymphoblastic leukemia, chemotherapy response"
+label 3919	"acute lymphoblastic leukemia, chemotherapy response"
+label 3920	"acute lymphoblastic leukemia, chemotherapy response"
+label 3921	"acute lymphoblastic leukemia, chemotherapy response"
+label 3922	"acute lymphoblastic leukemia, chemotherapy response"
+label 3923	acute lymphoblastic leukemia
+label 3924	"acute lymphoblastic leukemia, chemotherapy response"
+label 3925	"acute lymphoblastic leukemia, chemotherapy response"
+label 3926	"acute lymphoblastic leukemia, chemotherapy response"
+label 3927	acute lymphoblastic leukemia
+label 3928	"acute lymphoblastic leukemia, chemotherapy response"
+label 3929	"acute lymphoblastic leukemia, chemotherapy response"
+label 3930	"acute lymphoblastic leukemia, chemotherapy response"
+label 3931	"acute lymphoblastic leukemia, chemotherapy response"
+label 3932	"acute lymphoblastic leukemia, chemotherapy response"
+label 3933	"acute lymphoblastic leukemia, chemotherapy response"
+label 3934	acute lymphoblastic leukemia
+label 3935	acute lymphoblastic leukemia
+label 3936	"acute lymphoblastic leukemia, chemotherapy response"
+label 3937	"acute lymphoblastic leukemia, chemotherapy response"
+label 3938	"acute lymphoblastic leukemia, chemotherapy response"
+label 3939	"acute lymphoblastic leukemia, chemotherapy response"
+label 3940	"acute lymphoblastic leukemia, chemotherapy response"
+label 3941	"acute lymphoblastic leukemia, chemotherapy response"
+label 3942	"acute lymphoblastic leukemia, chemotherapy response"
+label 3943	"acute lymphoblastic leukemia, chemotherapy response"
+label 3944	acute lymphoblastic leukemia
+label 3945	"acute lymphoblastic leukemia, chemotherapy response"
+label 3946	acute lymphoblastic leukemia
+label 3947	"acute lymphoblastic leukemia, chemotherapy response"
+label 3948	"acute lymphoblastic leukemia, chemotherapy response"
+label 3949	"acute lymphoblastic leukemia, chemotherapy response"
+label 3950	"acute lymphoblastic leukemia, chemotherapy response"
+label 3951	"acute lymphoblastic leukemia, chemotherapy response"
+label 3952	"acute lymphoblastic leukemia, chemotherapy response"
+label 3953	"acute lymphoblastic leukemia, chemotherapy response"
+label 3954	"acute lymphoblastic leukemia, chemotherapy response"
+label 3955	"acute lymphoblastic leukemia, chemotherapy response"
+label 3956	"acute lymphoblastic leukemia, chemotherapy response"
+label 3957	"acute lymphoblastic leukemia, chemotherapy response"
+label 3958	"acute lymphoblastic leukemia, chemotherapy response"
+label 3959	"acute lymphoblastic leukemia, chemotherapy response"
+label 3960	"acute lymphoblastic leukemia, chemotherapy response"
+label 3961	acute lymphoblastic leukemia
+label 3962	acute lymphoblastic leukemia
+label 3963	"acute lymphoblastic leukemia, chemotherapy response"
+label 3964	"acute lymphoblastic leukemia, chemotherapy response"
+label 3965	"acute lymphoblastic leukemia, chemotherapy response"
+label 3966	"acute lymphoblastic leukemia, chemotherapy response"
+label 3967	acute lymphoblastic leukemia
+label 3968	"acute lymphoblastic leukemia, chemotherapy response"
+label 3969	acute lymphoblastic leukemia
+label 3970	"acute lymphoblastic leukemia, chemotherapy response"
+label 3971	acute lymphoblastic leukemia
+label 3972	"acute lymphoblastic leukemia, chemotherapy response"
+label 3973	"acute lymphoblastic leukemia, chemotherapy response"
+label 3974	acute lymphoblastic leukemia
+label 3975	acute lymphoblastic leukemia
+label 3976	"acute lymphoblastic leukemia, chemotherapy response"
+label 3977	"acute lymphoblastic leukemia, chemotherapy response"
+label 3978	"acute lymphoblastic leukemia, chemotherapy response"
+label 3979	"acute lymphoblastic leukemia, chemotherapy response"
+label 3980	"acute lymphoblastic leukemia, chemotherapy response"
+label 3981	"acute lymphoblastic leukemia, chemotherapy response"
+label 3982	acute lymphoblastic leukemia
+label 3983	"acute lymphoblastic leukemia, chemotherapy response"
+label 3984	"acute lymphoblastic leukemia, chemotherapy response"
+label 3985	"acute lymphoblastic leukemia, chemotherapy response"
+label 3986	"acute lymphoblastic leukemia, chemotherapy response"
+label 3987	"acute lymphoblastic leukemia, chemotherapy response"
+label 3988	"acute lymphoblastic leukemia, chemotherapy response"
+label 3989	acute lymphoblastic leukemia
+label 3990	"acute lymphoblastic leukemia, chemotherapy response"
+label 3991	acute lymphoblastic leukemia
+label 3992	acute lymphoblastic leukemia
+label 3993	"acute lymphoblastic leukemia, chemotherapy response"
+label 3994	"acute lymphoblastic leukemia, chemotherapy response"
+label 3995	"acute lymphoblastic leukemia, chemotherapy response"
+label 3996	acute lymphoblastic leukemia
+label 3997	"acute lymphoblastic leukemia, chemotherapy response"
+label 3998	"acute lymphoblastic leukemia, chemotherapy response"
+label 3999	acute lymphoblastic leukemia
+label 4000	"acute lymphoblastic leukemia, chemotherapy response"
+label 4001	acute lymphoblastic leukemia
+label 4002	"acute lymphoblastic leukemia, chemotherapy response"
+label 4003	"acute lymphoblastic leukemia, chemotherapy response"
+label 4004	acute lymphoblastic leukemia
+label 4005	"acute lymphoblastic leukemia, chemotherapy response"
+label 4006	acute lymphoblastic leukemia
+label 4007	acute lymphoblastic leukemia
+label 4008	acute lymphoblastic leukemia
+label 4009	"acute lymphoblastic leukemia, chemotherapy response"
+label 4010	acute lymphoblastic leukemia
+label 4011	"acute lymphoblastic leukemia, chemotherapy response"
+label 4012	acute lymphoblastic leukemia
+label 4013	acute lymphoblastic leukemia
+label 4014	"acute lymphoblastic leukemia, chemotherapy response"
+label 4015	"acute lymphoblastic leukemia, chemotherapy response"
+label 4016	acute lymphoblastic leukemia
+label 4017	"acute lymphoblastic leukemia, chemotherapy response"
+label 4018	"acute lymphoblastic leukemia, chemotherapy response"
+label 4019	acute lymphoblastic leukemia
+label 4020	"acute lymphoblastic leukemia, chemotherapy response"
+label 4021	acute lymphoblastic leukemia
+label 4022	acute lymphoblastic leukemia
+label 4023	"acute lymphoblastic leukemia, chemotherapy response"
+label 4024	acute lymphoblastic leukemia
+label 4025	"acute lymphoblastic leukemia, chemotherapy response"
+label 4026	"acute lymphoblastic leukemia, chemotherapy response"
+label 4027	"acute lymphoblastic leukemia, chemotherapy response"
+label 4028	"acute lymphoblastic leukemia, chemotherapy response"
