@@ -134,7 +134,7 @@ def look_rawdata(origin_num):
 def anno2classes():
     fin = open('output/data/anno_processed.txt', 'r')
     fout = open('output/data/classes_label.txt', 'w')
-    target_np = np.zeros([3558, 76, 1])
+    target_np = np.zeros([3558, 79, 1])
 
     annos = fin.readlines()
     n = 0
