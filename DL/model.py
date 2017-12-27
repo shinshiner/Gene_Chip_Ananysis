@@ -5,9 +5,9 @@ import torch.nn.functional as F
 from torch.autograd import Variable
 from utils import norm_col_init, weights_init
 
-class SA_NET(torch.nn.Module):
-    def __init__(self, pca_dim = 187, classes = 76, batch_size = 1):
-        super(SA_NET, self).__init__()
+class NET(torch.nn.Module):
+    def __init__(self, pca_dim = 453, classes = 76):
+        super(NET, self).__init__()
 
         self.fc1 = nn.Linear(pca_dim , 128)
         self.fc2 = nn.Linear(128, 128)
@@ -31,8 +31,11 @@ class SA_NET(torch.nn.Module):
         x = F.relu(self.fc2(x))
         x = F.relu(self.fc3(x))
 
-        return x#F.log_softmax(x)
+        return x
 
 if __name__ == '__main__':
-    c = SA_NET(256).cuda()
-    print(c.forward(Variable(torch.ones(5, 256)).cuda())[0].size())
+    c = NET()
+    x = c(Variable(torch.ones(453)))
+    x = x.max(0)[1].data
+    x = x.numpy()[0]
+    print(x)

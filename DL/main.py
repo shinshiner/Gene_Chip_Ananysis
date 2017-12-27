@@ -5,19 +5,19 @@ import numpy as np
 import torch
 import torch.nn as nn
 from torch.autograd import Variable
-from model import SA_NET
+import torch.nn.functional as F
+from torch.utils import data
+from model import NET
 from test import test
-from evaluate import evaluate
 from torch.optim import Adam
 import time
 import random
-from constants import *
 from utils import setup_logger
 
-parser = argparse.ArgumentParser(description='Sentiment-Analysis')
+parser = argparse.ArgumentParser(description='Gene-Chip-Classification')
 parser.add_argument(
     '--train',
-    default = False,
+    default = True,
     metavar = 'T',
     help = 'train model (set False to evaluate)')
 parser.add_argument(
@@ -27,7 +27,7 @@ parser.add_argument(
     help='using GPU')
 parser.add_argument(
     '--model-load',
-    default=True,
+    default=False,
     metavar='L',
     help='load trained model')
 parser.add_argument(
@@ -45,7 +45,7 @@ parser.add_argument(
 parser.add_argument(
     '--workers',
     type=int,
-    default=4,
+    default=1,
     metavar='W',
     help='how many training processes to use')
 parser.add_argument(
@@ -75,16 +75,22 @@ parser.add_argument(
 parser.add_argument(
     '--gamma',
     type=float,
-    default=0.96,
+    default=0.99,
     metavar='GM',
     help='to reduce learning rate gradually in simulated annealing')
+parser.add_argument(
+    '--batch_size',
+    type=int,
+    default=1,
+    metavar='BS',
+    help='the number of data to feed the nn in one time')
 
 if __name__ == '__main__':
     args = parser.parse_args()
     torch.set_default_tensor_type('torch.DoubleTensor')
-    #mp.set_start_method('spawn')
     torch.manual_seed(args.seed)
     random.seed(args.seed)
+
     if not os.path.exists(args.model_dir):
         os.mkdir(args.model_dir)
     if not os.path.exists(args.log_dir):
@@ -94,21 +100,29 @@ if __name__ == '__main__':
             os.remove(os.path.join(args.log_dir, log))
     
     if args.train:
-        shared_model = SA_NET(Embedding_Dim[Tag_Dict[args.tag]])
+        model = NET()
         if args.model_load:
             try:
                 saved_state = torch.load(os.path.join(args.model_dir, 'best_model.dat'))
-                shared_model.load_state_dict(saved_state)
+                model.load_state_dict(saved_state)
             except:
                 print('Cannot load existing model from file!')
         if args.gpu:
-            shared_model = shared_model.cuda()
+            model = model.cuda()
 
-        optimizer = Adam(shared_model.parameters(), lr=args.lr)
-        criterion = nn.CrossEntropyLoss()
-        dataset = np.load(os.path.join(Dataset_Dir, Tag_Name[Tag_Dict[args.tag]], "%s_train.npz" % Tag_Name[Tag_Dict[args.tag]]))
-        targets = dataset["arr_0"]
+        optimizer = Adam(model.parameters(), lr=args.lr)
+        loss_func = nn.CrossEntropyLoss()
+        dataset = torch.from_numpy(np.load("../output/data/dataset_train.npy"))
+        targets = torch.from_numpy(np.int64(np.load("../output/data/target_train.npy")))
         max_accuracy = 0.0
+
+        # # code for batch training
+        # torch_dataset = data.TensorDataset(data_tensor=dataset, target_tensor=targets)
+        # data_loader = data.DataLoader(dataset=torch_dataset,
+        #                               batch_size=args.batch_size,
+        #                               shuffle=True,
+        #                               num_workers=2,
+        #                             )
 
         while True:
             args.epoch += 1
@@ -116,52 +130,82 @@ if __name__ == '__main__':
             start_time = time.time()
             log = setup_logger(0, 'epoch%d' % args.epoch, os.path.join(args.log_dir, 'epoch%d_log.txt' % args.epoch))
             log.info('Train time ' + time.strftime("%Hh %Mm %Ss", time.gmtime(time.time() - start_time)) + ', ' + 'Training started.')
-            
+
+            # init
             order = list(range(targets.shape[0]))
             random.shuffle(order)
             losses = 0
             correct_cnt = 0
 
+            # # code for batch training
+            # for step, (batch_x, batch_y) in enumerate(data_loader):
+            #     data_x = Variable(batch_x)
+            #     data_y = Variable(batch_y)
+            #     if args.gpu:
+            #         data_x = data_x.cuda()
+            #         data_y = data_y.cuda()
+            #
+            #     prediction = model(data_x)
+            #     loss = loss_func(prediction, data_y)
+            #     if args.gpu:
+            #         loss = loss.cpu()
+            #     optimizer.zero_grad()
+            #     loss.backward()
+            #     optimizer.step()
+
             for i in range(targets.shape[0]):
                 idx = order[i]
-                if dataset["arr_%d" % (idx + 1)].shape[0] == 0:
-                    continue
 
-                data = Variable(torch.from_numpy(dataset["arr_%d" % (idx + 1)]))
-                target = Variable(torch.DoubleTensor([int(targets[idx])]), requires_grad = False)
+                # get data
+                data = Variable(dataset[idx])
+                target = Variable(torch.LongTensor([targets[idx]]), requires_grad = False)
+
                 if args.gpu:
                     data = data.cuda()
                     target = target.cuda()
 
-                output = shared_model(data).squeeze(0)
-                if (output.data.cpu().numpy()[0] < 0.5 and targets[idx] == 0) or (output.data.cpu().numpy()[0] >= 0.5 and targets[idx] == 1):
+                # get prediction and check it
+                output = model(data)
+                if args.gpu:
+                    output = output.cpu()
+                predict_class = output.max(0)[1].data.numpy()[0]
+                if target.data[0] == predict_class:
                     correct_cnt += 1
-                #output = F.log_softmax(output)
 
+                # update parameters
                 optimizer.zero_grad()
-                loss = criterion(output, target)
+                if args.gpu:
+                    loss = loss_func(output.cuda().unsqueeze(0), target)
+                else:
+                    loss = loss_func(output.unsqueeze(0), target)
                 loss.backward()
                 if args.gpu:
                     loss = loss.cpu()
-
                 optimizer.step()
                 losses += loss
-                if (i + 1) % 100 == 0:
-                    print(output)
-                    log.info('accuracy: %d%%' % correct_cnt)
-                    correct_cnt = 0
-                    log.info('Train time ' + time.strftime("%Hh %Mm %Ss", time.gmtime(time.time() - start_time)) + ', ' + 'Mean loss: %0.4f' % (loss.data.numpy()[0] % 100))
 
-            state_to_save = shared_model.state_dict()
-            torch.save(state_to_save, os.path.join(args.model_dir, 'epoch%d.dat' % args.epoch))
-            accuracy = test(args, shared_model, os.path.join(Dataset_Dir, Tag_Name[Tag_Dict[args.tag]], "%s_test.npz" % Tag_Name[Tag_Dict[args.tag]]))
+                # logging
+                if (i + 1) % 500 == 0:
+                    log.info('accuracy: %d%%' % (correct_cnt // 5))
+                    correct_cnt = 0
+                    log.info('Train time ' + \
+                             time.strftime("%Hh %Mm %Ss", time.gmtime(time.time() - start_time)) + \
+                             ', ' + 'Mean loss: %0.4f' % (losses.data.numpy()[0] / 500.0))
+
+            # save model
+            state_to_save = model.state_dict()
+            if args.epoch % 10 == 0:
+                torch.save(state_to_save, os.path.join(args.model_dir, 'epoch%d.dat' % args.epoch))
+            accuracy = test(args, model)
             print('Overall accuracy = %0.2f%%' % (100 * accuracy))
             if accuracy > max_accuracy:
                 max_accuracy = accuracy
                 torch.save(state_to_save, os.path.join(args.model_dir, 'best_model.dat'))
 
+            # reduce learning rate
             args.lr *= args.gamma
             for param_group in optimizer.param_groups:
                 param_group['lr'] = args.lr
     else:
-        evaluate(args, os.path.join(Dataset_Dir, 'task2input.xml'), os.path.join(Dataset_Dir, 'task2output.xml'))
+        #evaluate(args, os.path.join(Dataset_Dir, 'task2input.xml'), os.path.join(Dataset_Dir, 'task2output.xml'))
+        pass
