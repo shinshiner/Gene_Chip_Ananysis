@@ -7,5 +7,5 @@ SJTU CS410 Project
 
 ## Current accuracy (About 100 epochs)
 * LR: 88%
-* SVM: 80%
+* SVM: 78%
 * NN: 78%

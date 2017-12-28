@@ -1,6 +1,6 @@
 from __future__ import print_function, division
 import torch
-from model import NET
+from model import SVM
 from torch.autograd import Variable
 import torch.nn.functional as F
 import time
@@ -8,7 +8,7 @@ import time
 def test(args, shared_model, dataset, targets, log):
     start_time = time.time()
     log.info('Test time ' + time.strftime("%Hh %Mm %Ss", time.gmtime(time.time() - start_time)) + ', ' + 'Start testing.')
-    local_model = NET()
+    local_model = SVM()
     local_model.load_state_dict(shared_model.state_dict())
     if args.gpu:
         local_model = local_model.cuda()

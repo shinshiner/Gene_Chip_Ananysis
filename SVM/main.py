@@ -1,5 +1,7 @@
 from __future__ import print_function, division
 import os
+import sys
+sys.path.append("./")
 import argparse
 import numpy as np
 import torch
@@ -7,19 +9,20 @@ import torch.nn as nn
 from torch.autograd import Variable
 import torch.nn.functional as F
 from torch.utils import data
-from model import NET
+from model import SVM
 from test import test
 from torch.optim import Adam
 import time
 import random
 from utils import setup_logger
+from constant import *
 
 parser = argparse.ArgumentParser(description='Gene-Chip-Classification')
 parser.add_argument(
     '--train',
-    default = True,
-    metavar = 'T',
-    help = 'train model (set False to evaluate)')
+    default=True,
+    metavar='T',
+    help='train model (set False to evaluate)')
 parser.add_argument(
     '--gpu',
     default=True,
@@ -100,9 +103,9 @@ if __name__ == '__main__':
     if args.epoch == 0 and args.train:
         for log in os.listdir(args.log_dir):
             os.remove(os.path.join(args.log_dir, log))
-    
+
     if args.train:
-        model = NET()
+        model = SVM()
         if args.model_load:
             try:
                 saved_state = torch.load(os.path.join(args.model_dir, 'best_model.dat'))
@@ -112,7 +115,7 @@ if __name__ == '__main__':
         if args.gpu:
             model = model.cuda()
 
-        loss_func = nn.CrossEntropyLoss()
+        loss_func = nn.MultiLabelMarginLoss()
         dataset = torch.from_numpy(np.load("../output/data/dataset_train.npy"))
         targets = torch.from_numpy(np.int64(np.load("../output/data/target_train.npy")))
         dataset_test = np.load(dataset_path)
@@ -139,7 +142,8 @@ if __name__ == '__main__':
             args.epoch += 1
             print('=====> Train at epoch %d, Learning rate %0.6f <=====' % (args.epoch, args.lr))
             start_time = time.time()
-            log.info('Train time ' + time.strftime("%Hh %Mm %Ss", time.gmtime(time.time() - start_time)) + ', ' + 'Training started.')
+            log.info('Train time ' + time.strftime("%Hh %Mm %Ss",
+                                                   time.gmtime(time.time() - start_time)) + ', ' + 'Training started.')
 
             # init
             order = list(range(targets.shape[0]))
@@ -168,7 +172,7 @@ if __name__ == '__main__':
 
                 # get data
                 data = Variable(dataset[idx])
-                target = Variable(torch.LongTensor([targets[idx]]), requires_grad = False)
+                target = Variable(torch.LongTensor([targets[idx]]), requires_grad=False)
 
                 if args.gpu:
                     data = data.cuda()
@@ -184,10 +188,12 @@ if __name__ == '__main__':
 
                 # update parameters
                 optimizer.zero_grad()
+                correct_class_score = output.data[target.data[0]]
+                new_score = torch.max(Variable(torch.zeros(CLASSES)), 1.0 + output - correct_class_score)
+                new_score[target.data[0]] = 0
+                loss = new_score.sum()
                 if args.gpu:
-                    loss = loss_func(output.cuda().unsqueeze(0), target)
-                else:
-                    loss = loss_func(output.unsqueeze(0), target)
+                    loss = loss.cuda()
                 loss.backward()
                 if args.gpu:
                     loss = loss.cpu()
@@ -220,5 +226,5 @@ if __name__ == '__main__':
             for param_group in optimizer.param_groups:
                 param_group['lr'] = args.lr
     else:
-        #evaluate(args, os.path.join(Dataset_Dir, 'task2input.xml'), os.path.join(Dataset_Dir, 'task2output.xml'))
+        # evaluate(args, os.path.join(Dataset_Dir, 'task2input.xml'), os.path.join(Dataset_Dir, 'task2output.xml'))
         pass
