@@ -100,9 +100,6 @@ if __name__ == '__main__':
         os.mkdir(args.model_dir)
     if not os.path.exists(args.log_dir):
         os.mkdir(args.log_dir)
-    if args.epoch == 0 and args.train:
-        for log in os.listdir(args.log_dir):
-            os.remove(os.path.join(args.log_dir, log))
 
     if args.train:
         model = SVM()
@@ -115,11 +112,10 @@ if __name__ == '__main__':
         if args.gpu:
             model = model.cuda()
 
-        loss_func = nn.MultiLabelMarginLoss()
         dataset = torch.from_numpy(np.load("../output/data/dataset_train.npy"))
         targets = torch.from_numpy(np.int64(np.load("../output/data/target_train.npy")))
         dataset_test = np.load(dataset_path)
-        targets_test = np.load(target_path)
+        targets_test = np.int64(np.load(target_path))
         if args.L2norm:
             log_test = setup_logger(0, 'test_log_norm', os.path.join(args.log_dir, 'test_log_norm.txt'))
             log = setup_logger(0, 'train_log_norm', os.path.join(args.log_dir, 'train_log_norm.txt'))

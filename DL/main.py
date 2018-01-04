@@ -22,7 +22,7 @@ parser.add_argument(
     help = 'train model (set False to evaluate)')
 parser.add_argument(
     '--gpu',
-    default=True,
+    default=False,
     metavar='G',
     help='using GPU')
 parser.add_argument(
@@ -113,7 +113,7 @@ if __name__ == '__main__':
         dataset = torch.from_numpy(np.load("../output/data/dataset_train.npy"))
         targets = torch.from_numpy(np.int64(np.load("../output/data/target_train.npy")))
         dataset_test = np.load(dataset_path)
-        targets_test = np.load(target_path)
+        targets_test = np.int64(np.load(target_path))
         if args.L2norm:
             log_test = setup_logger(0, 'test_log_norm', os.path.join(args.log_dir, 'test_log_norm.txt'))
             log = setup_logger(0, 'train_log_norm', os.path.join(args.log_dir, 'train_log_norm.txt'))
@@ -217,5 +217,4 @@ if __name__ == '__main__':
             for param_group in optimizer.param_groups:
                 param_group['lr'] = args.lr
     else:
-        #evaluate(args, os.path.join(Dataset_Dir, 'task2input.xml'), os.path.join(Dataset_Dir, 'task2output.xml'))
         pass
