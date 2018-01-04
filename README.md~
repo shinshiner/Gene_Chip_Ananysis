@@ -22,4 +22,4 @@ using several fc-layers and crossentropy loss.
 * SVM: 89%
 * NN: 91% (with l2 norm, dropout(0.5), relu activation funciton)
 
-Results could be improved with some more parameters adjustment.
+Results can be modified.

@@ -69,7 +69,7 @@ parser.add_argument(
 parser.add_argument(
     '--gamma',
     type=float,
-    default=0.98,
+    default=1,
     metavar='GM',
     help='to reduce learning rate gradually in simulated annealing')
 parser.add_argument(
@@ -97,9 +97,6 @@ if __name__ == '__main__':
         os.mkdir(args.model_dir)
     if not os.path.exists(args.log_dir):
         os.mkdir(args.log_dir)
-    if args.epoch == 0 and args.train:
-        for log in os.listdir(args.log_dir):
-            os.remove(os.path.join(args.log_dir, log))
     
     if args.train:
         model = NET()
@@ -120,7 +117,7 @@ if __name__ == '__main__':
         if args.L2norm:
             log_test = setup_logger(0, 'test_log_norm', os.path.join(args.log_dir, 'test_log_norm.txt'))
             log = setup_logger(0, 'train_log_norm', os.path.join(args.log_dir, 'train_log_norm.txt'))
-            optimizer = Adam(model.parameters(), lr=args.lr, weight_decay=1e-8)
+            optimizer = Adam(model.parameters(), lr=args.lr, weight_decay=1e-6)
         else:
             log_test = setup_logger(0, 'test_log', os.path.join(args.log_dir, 'test_log.txt'))
             log = setup_logger(0, 'train_log', os.path.join(args.log_dir, 'train_log.txt'))
