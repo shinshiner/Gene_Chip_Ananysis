@@ -1,7 +1,8 @@
 import numpy as np
 from PCA.pca import *
-
-PCA = {'0.85':187, '0.9':453}
+import random
+from copy import deepcopy
+from constant import *
 
 # 合并疾病各阶段
 def merge_disease(label_dic, origin_num, annos):
@@ -96,9 +97,8 @@ def look_rawdata(origin_num):
     fin = open('data/microarray.original.txt', 'r')
     lines = []
     fin.readline()
-    pca_percentage = 0.9
-    fout = open('output/pca/pca%f.txt' % round(pca_percentage, 2), 'w')
-    dataset_np = np.zeros([3558, PCA[str(pca_percentage)]])
+    fout = open('output/pca/pca%.2f.txt' % PCA_PERCENTAGE, 'w')
+    dataset_np = np.zeros([ALL_DATA, PCA[str(PCA_PERCENTAGE)]])
 
     # read raw data
     for i in range(22283):
@@ -112,45 +112,95 @@ def look_rawdata(origin_num):
     # do PCA
     data = np.array(lines).T
     print("Now reducing dimension...")
-    print(data[0][0])
-    lowDData = pca(data, pca_percentage)
+    lowDData = pca(data, PCA_PERCENTAGE)
     print(lowDData[0][0])
     print("Finished, the new dimension is :" + str(len(lowDData[0])))
 
-    # save results (.txt file and .npy)
+    # save pca results (.txt file and .npy)
     print("Start writing new data...")
+    j = 0
     for k in origin_num:
         for num in k[1]:
             for i in range(len(lowDData[num])):
-                dataset_np[num][i] = lowDData[num][i]
-                fout.write(str(lowDData[num][i]) + '\t')
+                dataset_np[j][i] = lowDData[num][i].real      # the number will be xxx+0j without .real
+                fout.write(str(lowDData[num][i].real) + '\t')
+            j += 1
             fout.write('\n')
-    np.save('output/data/dataset.npy')
+    np.save('output/pca/pca%.2f.npy' % PCA_PERCENTAGE, dataset_np)
     print("Finished the whole work.")
 
     fin.close()
     fout.close()
 
+    return dataset_np
+
+# generate one-hot vectors
 def anno2classes():
     fin = open('output/data/anno_processed.txt', 'r')
     fout = open('output/data/classes_label.txt', 'w')
-    target_np = np.zeros([3558, 76, 1])
+    target_np = np.zeros([ALL_DATA, CLASSES])
 
     annos = fin.readlines()
     n = 0
     fout.write(str(n) + '\n') # first disease should be class 0
-    target_np[0][0][0] = 1
-    for i in range(1, len(annos)):
+    target_np[0][0] = 1
+    for i in range(1, ALL_DATA):
         if annos[i] != annos[i - 1]:
             n += 1
         fout.write(str(n) + '\n')
-        target_np[i][n][0] = 1
+        target_np[i][n] = 1
 
     fin.close()
     fout.close()
-    np.save('output/data/target.npy', target_np)
+    # np.save('output/data/target.npy', target_np)
+
+    return target_np
+
+def labeling():
+    fin = open('output/data/classes_label.txt', 'r')
+    target_np = np.zeros([ALL_DATA], dtype=np.int64)
+    annos = fin.readlines()
+
+    for i in range(ALL_DATA):
+        target_np[i] = int(annos[i])
+
+    return target_np
+
+# divide training and testing data
+def divide_train_test_set(dataset, targets):
+    test_n = int(TEST_RADIO * ALL_DATA)
+    test_idx = random.sample(range(ALL_DATA), test_n)
+
+    train_x = np.zeros([ALL_DATA - test_n, PCA[str(PCA_PERCENTAGE)]])
+    train_y = np.zeros([ALL_DATA - test_n])
+    test_x = np.zeros([test_n, PCA[str(PCA_PERCENTAGE)]])
+    test_y = np.zeros([test_n])
+
+    j = 0
+    k = 0
+    for i in range(ALL_DATA):
+        if i in test_idx:
+            test_x[j] = deepcopy(dataset[i])
+            test_y[j] = deepcopy(targets[i])
+            j += 1
+        else:
+            train_x[k] = deepcopy(dataset[i])
+            train_y[k] = deepcopy(targets[i])
+            k += 1
+    print("training set shape:", train_x.shape)
+    print("testing set shape:", test_x.shape)
+
+    np.save("output/data/dataset_train.npy", train_x)
+    np.save("output/data/target_train.npy", train_y)
+    np.save("output/data/dataset_test.npy", test_x)
+    np.save("output/data/target_test.npy", test_y)
+
+    print("Dataset Construction Finished !!!")
 
 if __name__ == '__main__':
-    origin_num = look_anno()
-    look_rawdata(origin_num)
-    anno2classes()
+    #origin_num = look_anno()
+    #dataset = look_rawdata(origin_num)
+    # targets = anno2classes()
+    dataset = np.load("output/pca/pca0.90.npy")
+    targets = labeling()
+    divide_train_test_set(dataset, targets)
