@@ -33,6 +33,7 @@ def merge_disease(label_dic, origin_num, annos):
 # 提取出出现次数>=10次的疾病，返回相应基因芯片数据的序号
 def look_anno():
     fin = open('data/E-TABM-185.sdrf.txt', 'r')         # 标注数据
+    fout_cnt = open('output/data/anno_cnt.txt', 'w')  # 疾病的出现次数
     fout = open('output/data/data_processed.txt', 'w')  # 相应疾病对应原始数据的编号
     fout_anno = open('output/data/anno_processed.txt', 'w')
 
@@ -67,6 +68,11 @@ def look_anno():
         else:
             origin_num.pop(k)
 
+    # 按出现次数降序排列
+    cnt_list = sorted(label_dic.items(), key=lambda item: item[1], reverse = True)
+    for k in cnt_list:
+        fout_cnt.write('%s: %d\n' % k)
+
     # 排序，此时字典变list
     label_dic = sorted(label_dic.items(), key=lambda item: item[0])
     origin_num = sorted(origin_num.items(), key=lambda item: item[0])
@@ -77,6 +83,7 @@ def look_anno():
             fout_anno.write(str(annos[num]) + '\n')
 
     fin.close()
+    fout_cnt.close()
     fout.close()
     fout_anno.close()
 
@@ -113,7 +120,7 @@ def look_rawdata(origin_num):
     data = np.array(lines).T
     print("Now reducing dimension...")
     lowDData = pca(data, PCA_PERCENTAGE)
-    print(lowDData[0][0])
+    #print(lowDData[0][0])
     print("Finished, the new dimension is :" + str(len(lowDData[0])))
 
     # save pca results (.txt file and .npy)
