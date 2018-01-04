@@ -171,12 +171,24 @@ def labeling():
     for i in range(ALL_DATA):
         target_np[i] = int(annos[i])
 
+    np.save("output/data/labels.npy", target_np)
+
     return target_np
 
 # divide training and testing data
-def divide_train_test_set(dataset, targets):
-    test_n = int(TEST_RADIO * ALL_DATA)
-    test_idx = random.sample(range(ALL_DATA), test_n)
+def divide_train_test_set():
+    dataset = np.load("output/pca/pca0.90.npy")
+    targets = np.load("output/data/labels.npy")
+    visited = 0
+    test_n = 0
+    test_idx = []
+    for i in range(CLASSES):
+        num_labels = (targets == i).sum()
+        test_n_t = max(int(TEST_RADIO * num_labels), 1)
+        print(test_n_t, '/', num_labels)
+        test_idx_t = random.sample(range(visited, visited + num_labels), test_n_t)
+        test_idx += test_idx_t
+        visited += num_labels
 
     train_x = np.zeros([ALL_DATA - test_n, PCA[str(PCA_PERCENTAGE)]])
     train_y = np.zeros([ALL_DATA - test_n])
@@ -205,9 +217,8 @@ def divide_train_test_set(dataset, targets):
     print("Dataset Construction Finished !!!")
 
 if __name__ == '__main__':
-    #origin_num = look_anno()
+    origin_num = look_anno()
     #dataset = look_rawdata(origin_num)
-    # targets = anno2classes()
-    dataset = np.load("output/pca/pca0.90.npy")
-    targets = labeling()
-    divide_train_test_set(dataset, targets)
+    #targets = anno2classes()
+    #targets = labeling()
+    divide_train_test_set()
