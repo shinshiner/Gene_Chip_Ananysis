@@ -189,7 +189,7 @@ def divide_train_test_set():
         test_idx_t = random.sample(range(visited, visited + num_labels), test_n_t)
         test_idx += test_idx_t
         visited += num_labels
-
+    test_n = len(test_idx)
     train_x = np.zeros([ALL_DATA - test_n, PCA[str(PCA_PERCENTAGE)]])
     train_y = np.zeros([ALL_DATA - test_n])
     test_x = np.zeros([test_n, PCA[str(PCA_PERCENTAGE)]])
@@ -217,7 +217,7 @@ def divide_train_test_set():
     print("Dataset Construction Finished !!!")
 
 if __name__ == '__main__':
-    origin_num = look_anno()
+    #origin_num = look_anno()
     #dataset = look_rawdata(origin_num)
     #targets = anno2classes()
     #targets = labeling()

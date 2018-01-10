@@ -35,9 +35,9 @@ if __name__ == '__main__':
     xte = tf.placeholder("float", [453])
     ytr = tf.placeholder(tf.float32, [None, CLASSES])
 
-    k = 1
+    k = 5
     #distance = tf.reduce_sum(tf.abs(tf.add(xtr, tf.negative(xte))), reduction_indices=1)
-    distance = tf.reduce_sum(tf.sqrt(tf.square(tf.add(xtr, tf.negative(xte)))), reduction_indices=1)
+    distance = tf.reduce_sum(tf.square(tf.add(xtr, tf.negative(xte))), reduction_indices=1)
 
     pred = tf.nn.top_k(-distance, k)
     accuracy = 0.
