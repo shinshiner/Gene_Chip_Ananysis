@@ -119,12 +119,16 @@ if __name__ == '__main__':
         if args.L2norm:
             log_test = setup_logger(0, 'test_log_norm', os.path.join(args.log_dir, 'test_log_norm.txt'))
             log = setup_logger(0, 'train_log_norm', os.path.join(args.log_dir, 'train_log_norm.txt'))
-            optimizer = Adam(model.parameters(), lr=args.lr, weight_decay=1e-8)
+            optimizer = Adam(model.parameters(), lr=args.lr, weight_decay=10)
         else:
             log_test = setup_logger(0, 'test_log', os.path.join(args.log_dir, 'test_log.txt'))
             log = setup_logger(0, 'train_log', os.path.join(args.log_dir, 'train_log.txt'))
             optimizer = Adam(model.parameters(), lr=args.lr)
         max_accuracy = 0.0
+        overfitting_cnt = 0
+        f_accuracy_train = open(os.path.join(args.log_dir, 'acc_train.txt'), 'w')
+        f_accuracy_test = open(os.path.join(args.log_dir, 'acc_test.txt'), 'w')
+        f_loss = open(os.path.join(args.log_dir, 'loss.txt'), 'w')
 
         # # code for batch training
         # torch_dataset = data.TensorDataset(data_tensor=dataset, target_tensor=targets)
@@ -146,6 +150,7 @@ if __name__ == '__main__':
             random.shuffle(order)
             losses = 0
             correct_cnt = 0
+            correct_cnt_sum = 0
 
             # # code for batch training
             # for step, (batch_x, batch_y) in enumerate(data_loader):
@@ -181,6 +186,7 @@ if __name__ == '__main__':
                 predict_class = output.max(0)[1].data.numpy()[0]
                 if target.data[0] == predict_class:
                     correct_cnt += 1
+                    correct_cnt_sum += 1
 
                 # update parameters
                 optimizer.zero_grad()
@@ -211,9 +217,17 @@ if __name__ == '__main__':
             if args.epoch % 10 == 0:
                 torch.save(state_to_save, os.path.join(args.model_dir, 'epoch%d.dat' % args.epoch))
             accuracy = test(args, model, dataset_test, targets_test, log_test)
+            f_accuracy_train.write('%0.2f\n' % (100 * correct_cnt_sum / targets.shape[0]))
+            f_accuracy_test.write('%0.2f\n' % (100 * accuracy))
+            f_loss.write('%0.4f\n' % (losses.data.numpy()[0] / targets.shape[0]))
             if accuracy > max_accuracy:
                 max_accuracy = accuracy
+                overfitting_cnt = 0
                 torch.save(state_to_save, os.path.join(args.model_dir, 'best_model.dat'))
+            else:
+                overfitting_cnt += 1
+                if overfitting_cnt >= 10:
+                    break
             if args.gpu:
                 model = model.cuda()
 
@@ -221,6 +235,9 @@ if __name__ == '__main__':
             args.lr *= args.gamma
             for param_group in optimizer.param_groups:
                 param_group['lr'] = args.lr
+        f_accuracy_train.close()
+        f_accuracy_test.close()
+        f_loss.close()
     else:
         # evaluate(args, os.path.join(Dataset_Dir, 'task2input.xml'), os.path.join(Dataset_Dir, 'task2output.xml'))
         pass
