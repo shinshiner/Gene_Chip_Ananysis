@@ -1,5 +1,7 @@
 from __future__ import print_function, division
 import os
+import sys
+sys.path.append("./")
 import argparse
 import numpy as np
 import torch
@@ -22,7 +24,7 @@ parser.add_argument(
     help = 'train model (set False to evaluate)')
 parser.add_argument(
     '--gpu',
-    default=False,
+    default=True,
     metavar='G',
     help='using GPU')
 parser.add_argument(
@@ -117,7 +119,7 @@ if __name__ == '__main__':
         if args.L2norm:
             log_test = setup_logger(0, 'test_log_norm', os.path.join(args.log_dir, 'test_log_norm.txt'))
             log = setup_logger(0, 'train_log_norm', os.path.join(args.log_dir, 'train_log_norm.txt'))
-            optimizer = Adam(model.parameters(), lr=args.lr, weight_decay=1e-3)
+            optimizer = Adam(model.parameters(), lr=args.lr, weight_decay=1)
         else:
             log_test = setup_logger(0, 'test_log', os.path.join(args.log_dir, 'test_log.txt'))
             log = setup_logger(0, 'train_log', os.path.join(args.log_dir, 'train_log.txt'))
@@ -187,10 +189,18 @@ if __name__ == '__main__':
 
                 # update parameters
                 optimizer.zero_grad()
+                '''
                 if args.gpu:
                     loss = loss_func(output.cuda().unsqueeze(0), target)
                 else:
                     loss = loss_func(output.unsqueeze(0), target)
+                '''
+                correct_class_score = output.data[target.data[0]]
+                new_score = torch.max(Variable(torch.zeros(76)), 1.0 + output - correct_class_score)
+                new_score[target.data[0]] = 0
+                loss = new_score.sum()
+                if args.gpu:
+                    loss = loss.cuda()
                 loss.backward()
                 if args.gpu:
                     loss = loss.cpu()
