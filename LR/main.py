@@ -119,7 +119,7 @@ if __name__ == '__main__':
         if args.L2norm:
             log_test = setup_logger(0, 'test_log_norm', os.path.join(args.log_dir, 'test_log_norm.txt'))
             log = setup_logger(0, 'train_log_norm', os.path.join(args.log_dir, 'train_log_norm.txt'))
-            optimizer = Adam(model.parameters(), lr=args.lr, weight_decay=10)
+            optimizer = Adam(model.parameters(), lr=args.lr, weight_decay=1e-1)
         else:
             log_test = setup_logger(0, 'test_log', os.path.join(args.log_dir, 'test_log.txt'))
             log = setup_logger(0, 'train_log', os.path.join(args.log_dir, 'train_log.txt'))
@@ -186,6 +186,7 @@ if __name__ == '__main__':
                 predict_class = output.max(0)[1].data.numpy()[0]
                 if target.data[0] == predict_class:
                     correct_cnt += 1
+                    correct_cnt_sum += 1
 
                 # update parameters
                 optimizer.zero_grad()
