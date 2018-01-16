@@ -1,0 +1,141 @@
+\begin{thebibliography}{10}\itemsep=-1pt
+
+\bibitem{geneLimit}
+M.~D. Adams, J.~M. Kelley, J.~D. Gocayne, M.~Dubnick, M.~H. Polymeropoulos,
+  H.~Xiao, C.~R. Merril, A.~Wu, B.~Olde, and R.~F. Moreno.
+\newblock Complementary dna sequencing: expressed sequence tags and human
+  genome project.
+\newblock {\em Science}, 252(5013):1651--6, 1991.
+
+\bibitem{genegene}
+H.~J. Cordell.
+\newblock Detecting gene-gene interactions that underlie human diseases.
+\newblock {\em Nature Reviews Genetics}, 10(6):392, 2009.
+
+\bibitem{sigmoid}
+G.~Cybenko.
+\newblock Approximation by superposition of sigmoidale function.
+\newblock {\em Mathematics of Control Signals and Systems}, 2(2):304--314,
+  1989.
+
+\bibitem{gene}
+M.~B. Gerstein, C.~Bruce, J.~S. Rozowsky, D.~Zheng, J.~Du, J.~O. Korbel,
+  O.~Emanuelsson, Z.~D. Zhang, S.~Weissman, and M.~Snyder.
+\newblock What is a gene, post-encode? history and updated definition.
+\newblock {\em Genome Research}, 17(6):669--681, 2007.
+
+\bibitem{knn}
+T.~Hastie and R.~Tibshirani.
+\newblock Discriminant adaptive nearest neighbor classification.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  18(6):607--616, 2002.
+
+\bibitem{svmCS231n}
+A.~Karpathy.
+\newblock Cs231n: Convolutional neural networks for visual recognition.
+\newblock \url{http://cs231n.github.io/linear-classify/}.
+
+\bibitem{neuronModel}
+A.~Karpathy.
+\newblock Cs231n: Convolutional neural networks for visual recognition.
+\newblock \url{http://cs231n.github.io/neural-networks-1/}.
+
+\bibitem{weightInit}
+A.~Karpathy.
+\newblock Cs231n: Convolutional neural networks for visual recognition.
+\newblock \url{http://cs231n.github.io/neural-networks-2/}.
+
+\bibitem{adam}
+D.~Kingma and J.~Ba.
+\newblock Adam: A method for stochastic optimization.
+\newblock {\em arXiv preprint arXiv:1412.6980}, 2014.
+
+\bibitem{geneProbe}
+D.~T. Kingsbury.
+\newblock Dna probes in the diagnosis of genetic and infectious diseases.
+\newblock {\em Trends in Biotechnology}, 5(4):107--111, 1987.
+
+\bibitem{MLinGene}
+O.~Kohannim.
+\newblock Assessing gene effects on the brain and risk for disease using
+  machine learning.
+\newblock {\em Philosophy}, 2012.
+
+\bibitem{KLdivergence}
+S.~Kullback and R.~A. Leibler.
+\newblock On information and sufficiency.
+\newblock {\em Annals of Mathematical Statistics}, 22(1):79--86, 1951.
+
+\bibitem{BP}
+Y.~Lecun.
+\newblock Une procédure d'apprentissage pour réseau a seuil asymmetrique (a
+  learning scheme for asymmetric threshold networks).
+\newblock In {\em Cognitiva}, 1985.
+
+\bibitem{deepLearning}
+Y.~LeCun, Y.~Bengio, and G.~Hinton.
+\newblock Deep learning.
+\newblock {\em Nature}, 521(7553):436--444, 2015.
+
+\bibitem{deepLearning1}
+S.~Leroux, S.~Bohez, T.~Verbelen, and B.~Vankeirsbilck.
+\newblock Resource-constrained classification using a cascade of neural network
+  layers.
+\newblock In {\em International Joint Conference on Neural Networks}, pages
+  1--7, 2015.
+
+\bibitem{globalViewOfGene}
+M.~Lukk, M.~Kapushesky, J.~Nikkil{\"a}, H.~Parkinson, A.~Goncalves, W.~Huber,
+  E.~Ukkonen, and A.~Brazma.
+\newblock A global map of human gene expression.
+\newblock {\em Nature biotechnology}, 28(4):322--324, 2010.
+
+\bibitem{crossValidation}
+C.~I. Mosier.
+\newblock The need and means of cross validation. i. problems and designs of
+  cross-validation.
+\newblock {\em Educational and Psychological Measurement}, pages 5--11, 1951.
+
+\bibitem{relu}
+V.~Nair and G.~E. Hinton.
+\newblock Rectified linear units improve restricted boltzmann machines.
+\newblock In {\em Proceedings of the 27th international conference on machine
+  learning (ICML-10)}, pages 807--814, 2010.
+
+\bibitem{transferLearning}
+S.~J. Pan, I.~W. Tsang, J.~T. Kwok, and Q.~Yang.
+\newblock Domain adaptation via transfer component analysis.
+\newblock {\em IEEE Transactions on Neural Networks}, 22(2):199, 2011.
+
+\bibitem{pytorch}
+A.~Paszke, S.~Gross, S.~Chintala, and G.~Chanan.
+\newblock Pytorch, 2017.
+
+\bibitem{whatisGene}
+H.~Pearson.
+\newblock Genetics: what is a gene?
+\newblock {\em Nature}, 441(7092):398, 2006.
+
+\bibitem{dropout}
+N.~Srivastava, G.~E. Hinton, A.~Krizhevsky, I.~Sutskever, and R.~Salakhutdinov.
+\newblock Dropout: a simple way to prevent neural networks from overfitting.
+\newblock {\em Journal of machine learning research}, 15(1):1929--1958, 2014.
+
+\bibitem{svm}
+J.~A. Suykens and J.~Vandewalle.
+\newblock Least squares support vector machine classifiers.
+\newblock {\em Neural processing letters}, 9(3):293--300, 1999.
+
+\bibitem{pca}
+M.~E. Wall, A.~Rechtsteiner, and L.~M. Rocha.
+\newblock Singular value decomposition and principal component analysis.
+\newblock In {\em A practical approach to microarray data analysis}, pages
+  91--109. Springer, 2003.
+
+\bibitem{Zou2005Zou}
+H.~Zou and T.~Hastie.
+\newblock Zou h, hastie t. regularization and variable selection via the
+  elastic net. j r statist soc b. 2005;67(2):301-20.
+\newblock {\em Journal of the Royal Statistical Society}, 67(2):301--320, 2005.
+
+\end{thebibliography}
