@@ -1,5 +1,5 @@
 # Gene_Chip_Ananysis
-SJTU CS410 Project
+Congratulations on your choice of a interesting course if you find this repository. Don't be tired of his f\*\*g lectures, or you would be failed in the final exam...
 
 ## Dataset
 * features: `output/data/dataset_train.npy dataset_test.npy (3558 * num_of_features)`
